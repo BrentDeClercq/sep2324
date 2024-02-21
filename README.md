@@ -3,7 +3,7 @@
 | Naam            | GitHub gebruikersnaam                             |
 | :-------------- | :------------------------------------------------ |
 | Brent De Clercq | [BrentDeClercq](https://github.com/BrentDeClercq) |
-| student2        | [student2](https://github.com/student2)           |
+| Kenji De Coster | [KenjiDeCoster](https://github.com/KenjiDeCoster) |
 | student3        | [student3](https://github.com/student3)           |
 | student4        | [student4](https://github.com/student4)           |
 | student5        | [student5](https://github.com/student5)           |
