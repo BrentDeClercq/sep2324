@@ -4,7 +4,7 @@
 | :-------------- | :------------------------------------------------ |
 | Brent De Clercq | [BrentDeClercq](https://github.com/BrentDeClercq) |
 | Kenji De Coster | [KenjiDeCoster](https://github.com/KenjiDeCoster) |
-| student3        | [student3](https://github.com/student3)           |
+| Nobel Fiers     | [NobelFiers](https://github.com/NobelFiers)       |
 | student4        | [student4](https://github.com/student4)           |
 | student5        | [student5](https://github.com/student5)           |
 
