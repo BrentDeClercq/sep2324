@@ -1,12 +1,12 @@
 # System Engineering Project
 
-| Naam     | GitHub gebruikersnaam                   |
-| :------- | :-------------------------------------- |
-| student1 | [student1](https://github.com/student1) |
-| student2 | [student2](https://github.com/student2) |
-| student3 | [student3](https://github.com/student3) |
-| student4 | [student4](https://github.com/student4) |
-| student5 | [student5](https://github.com/student5) |
+| Naam            | GitHub gebruikersnaam                             |
+| :-------------- | :------------------------------------------------ |
+| Brent De Clercq | [BrentDeClercq](https://github.com/BrentDeClercq) |
+| student2        | [student2](https://github.com/student2)           |
+| student3        | [student3](https://github.com/student3)           |
+| student4        | [student4](https://github.com/student4)           |
+| student5        | [student5](https://github.com/student5)           |
 
 Dit is de repository voor het projectvak System Engineering Project.
 
