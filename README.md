@@ -5,7 +5,7 @@
 | Brent De Clercq | [BrentDeClercq](https://github.com/BrentDeClercq) |
 | Kenji De Coster | [KenjiDeCoster](https://github.com/KenjiDeCoster) |
 | Nobel Fiers     | [NobelFiers](https://github.com/NobelFiers)       |
-| student4        | [student4](https://github.com/student4)           |
+| Julie De Witte        | [JulieDeWitte](https://github.com/JulieDeWitte)           |
 | Rayane Yousti        | [RayaneYousti](https://github.com/RayaneYousti)           |
 
 Dit is de repository voor het projectvak System Engineering Project.
