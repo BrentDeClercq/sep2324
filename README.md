@@ -14,8 +14,6 @@ Dit is de repository voor het projectvak System Engineering Project.
 
 :bulb: Bij templates wordt er gebruik gemaakt van `<!-- Markdown comments. -->`. Open deze met een teksteditor en vervang deze door wat er gevraagd wordt. Previews tonen deze comments default niet, vandaar dat het belangrijk is om een teksteditor te gebruiken.
 
-
-
 ## Voorbereiding
 
 Volgende taken worden door **één groepslid** uitgevoerd:
