@@ -32,7 +32,7 @@ Je moet altijd kunnen aantonen dat gepresteerde uren ook een tastbaar resultaat 
 
 ## Opvolgingsrapporten
 
-In de map [voorbeeld](./voorbeeld/) kan je een voorbeeld van een opvolgingsrapport vinden.
+In de map [voorbeeld](./voorbeelden/) kan je een voorbeeld van een opvolgingsrapport vinden.
 Je stelt **tweewekelijks** een opvolgingsrapport op voor je proces. De periode van een opvolgingsrapport is telkens vanaf donderdag t.e.m. de woensdag voor het volgende opvolgingsgesprek met je bijhorende begeleider.
 
 Vul eerst in de templates [opvolgingsrapport-n.md](./templates/opvolgingsrapport-n.md) de informatie aan (bv. groep, namen studenten, ... ) dat herhaald wordt in elk verslag.
