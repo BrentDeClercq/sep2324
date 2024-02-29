@@ -1,10 +1,10 @@
-# Opvolgingsrapport <!-- Nummer. -->
+# Opvolgingsrapport 2
 
 ## Algemeen
 
 - Groep: G06
-- Periode: <!-- Van. --> tot <!-- Tot. -->
-- Datum voortgangsgesprek: <!-- Datum. -->
+- Periode: 22/02/2024 tot 29/02/2024
+- Datum voortgangsgesprek: 29/02/2024
 
 | Student         | Afw. | Opmerking |
 | :-------------- | :--: | :-------- |
@@ -18,62 +18,65 @@
 
 ### Algemeen
 
-- ...
+- Subnetten Netwerk
 - ...
 
 #### KanBan
 
-<!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
+![kanban](./img/kanban.png)
 
 #### Tijdsregistratie
 
-<!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+![tijdsregistratie](./img/tijdsregistratie.png)
 
 #### Cumulatief flow diagram
 
-<!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
-
-<!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+Cumulative Flow Diagram (periode, is deze week hetzelfde als volledig project)
+![CFD](./img/CFD.png)
 
 ### Brent De Clercq
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+[3ca9cb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/3ca9cbebfca830c4ee6fb1d80fb2651a84bd45af)
+[cd6944](https://github.com/HoGentTIN/sep2324-gent-g06/commit/cd6944a933f30a24711f4d2ac4ab763144136ef5)
+![Subnetten](./img/subnetten.png)
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+- Ik heb mij bezig gehouden met het subnetten van het netwerk
+
+![timesheet_brent](./img/timesheet_brent.png)
 
 ### Kenji De Coster
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Geholpen met subnetten
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_kenji](./img/timesheet_kenji.png)
 
 ### Nobel Fiers
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Start prijzen opzoeken voor offerte
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_nobel](./img/timesheet_nobel.png)
 
 ### Julie De Witte
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Installatieplan
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_julie](./img/timesheet_julie.png)
 
 ### Rayane Yousti
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Momenteel nog niks
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_rayane](./img/timesheet_rayane.png)
 
 ## Wat plan je volgende periode te doen?
 
@@ -81,8 +84,8 @@
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
-- ...
+- Offerte
+- Installatieplan
 
 ### Brent De Clercq
 
@@ -100,7 +103,7 @@
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Kostprijsberekening
 
 ### Julie De Witte
 
