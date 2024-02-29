@@ -2,7 +2,7 @@
 
 ## Algemeen
 
-- Groep: <!-- Groepsnummer -->
+- Groep: G06
 - Periode: <!-- Van. --> tot <!-- Tot. -->
 - Datum voortgangsgesprek: <!-- Datum. -->
 
