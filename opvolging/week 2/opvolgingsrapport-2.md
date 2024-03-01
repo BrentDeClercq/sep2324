@@ -19,7 +19,7 @@
 ### Algemeen
 
 - Subnetten Netwerk
-- ...
+- Begin Installatieplan en offerte
 
 #### KanBan
 
@@ -38,8 +38,11 @@ Cumulative Flow Diagram (periode, is deze week hetzelfde als volledig project)
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-[3ca9cb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/3ca9cbebfca830c4ee6fb1d80fb2651a84bd45af)
-[cd6944](https://github.com/HoGentTIN/sep2324-gent-g06/commit/cd6944a933f30a24711f4d2ac4ab763144136ef5)
+Commits:
+
+- [3ca9cb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/3ca9cbebfca830c4ee6fb1d80fb2651a84bd45af)
+- [cd6944](https://github.com/HoGentTIN/sep2324-gent-g06/commit/cd6944a933f30a24711f4d2ac4ab763144136ef5)
+
 ![Subnetten](./img/subnetten.png)
 
 - Ik heb mij bezig gehouden met het subnetten van het netwerk
@@ -91,7 +94,7 @@ Cumulative Flow Diagram (periode, is deze week hetzelfde als volledig project)
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Misschien de subnetten nog eens bekijken
 
 ### Kenji De Coster
 
