@@ -7,28 +7,36 @@
   700 euro
 
 - Cisco WS-C2960S switch <span style="font-size:larger;">x4</span>  
-  https://it-planet.com/nl/p/cisco-ws-c2960s-48fps-l-1597.html?number=A1001650&c=166  
-  10.800 euro
-
+ https://it-planet.com/nl/p/cisco-ws-c2960s-48fps-l-1597.html?number=A1001650&c=166  
+ 10.800 euro
+<!--
 - PowerEdge R6525 proxyserver  
   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r6525-rack-server/spd/poweredge-r6525/pe_r6525_tm_vi_vp_sb  
-  3.800 euro
+  3.800 dollar
 
 - PowerEdge R760 linux server  
   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r760-rack-server/spd/poweredge-r760/pe_r760_tm_vi_vp_sb  
-  7.500 euro
+  7.500 dollar
 
 - PowerEdge R760 windows server  
-  https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r760-rack-server/spd/poweredge-r760/pe_r760_tm_vi_vp_sb  
-  7.500 euro
+   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r760-rack-server/spd/poweredge-r760/pe_r760_tm_vi_vp_sb  
+   7.500 dollar
+  -->
+- PowerEdge R860 server voor windows/linux/proxy  
+   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r860-rack-server/spd/poweredge-r860/pe_r860_16717_vi_vp#features_section  
+  16.289 dollar -> 15.011,94
 
 - PowerEdge R750xs TFTP server  
   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r750xs-rack-server/spd/poweredge-r750xs/pe_r750xs_tm_vi_vp_sb  
-  4.070 euro
+  4.070 dollar -> 3.750,91 euro
 
 - TP-Link TL-WA1201 accesspoint <span style="font-size:larger;">x4</span>  
   https://www.bol.com/be/nl/p/tp-link-tl-wa1201-accesspoint-1200-mbps-wit/9300000002848537/?bltgh=rIaYaaB6dfXQUQUzNEhO5Q.3_17.18.ProductTitle  
   192 euro
+
+- Meraki 24-poort switch <span style="font-size:larger;">x2</span>  
+  https://www.merakishop.nl/cisco-meraki-ms120-24p.html  
+  2998 euro
 
 ## materiaal
 
@@ -62,4 +70,4 @@
 
 ## totale kost
 
-De totale kost voor aparatuur en materiaal is 36.920
+De totale kost voor aparatuur en materiaal bedraagd 34.810,85 euro
