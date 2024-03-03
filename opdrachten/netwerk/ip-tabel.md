@@ -1,5 +1,20 @@
 # IP-adrestabel
 
+<!-- 
+tabel template:
+
+## 
+
+Netwerk: /
+
+| Device | Interface | IP address    | Subnetmask      | Default gateway |
+| ------ | --------- | ------------- | --------------- | --------------- |
+|        |           |               |                 |                 |
+|        |           |               |                 |                 |
+
+-->
+
+
 ## VLAN 11 - Clients
 
 Netwerk: 192.168.106.0/25
@@ -11,7 +26,7 @@ Netwerk: 192.168.106.0/25
 
 ## VLAN 1 - Management
 
-192.168.106.232/29
+Netwerk: 192.168.106.232/29
 
 | Device      | Interface | IP address      | Subnetmask      | Default gateway |
 | ----------- | --------- | --------------- | --------------- | --------------- |
@@ -22,25 +37,32 @@ Netwerk: 192.168.106.0/25
 
 ## VLAN 42 - Servers
 
-192.168.106.240/29
+Netwerk: 192.168.106.240/29
 
 | Device   | Interface | IP address      | Subnetmask      | Default gateway |
 | -------- | --------- | --------------- | --------------- | --------------- |
 | R1       | G0/0.42   | 192.168.106.241 | 255.255.255.248 | N/A             |
 | WINSERV  | N/A       | 192.168.106.242 | 255.255.255.248 | 192.168.106.241 |
 | LINUXCLI | N/A       | 192.168.106.243 | 255.255.255.248 | 192.168.106.241 |
+<!-- Dit is voor de iteratie 2 van toepassing maar niet voor de packet tracer -->
+    |i.p.v enkel de LINUXCLI|
+    |-----------------------|-----------|-----------------|-----------------|-----------------|
+    | Linux Database server | N/A       | 192.168.106.243 | 255.255.255.248 | 192.168.106.241 |
+    | Linux web server      | N/A       | 192.168.106.244 | 255.255.255.248 | 192.168.106.241 |
 
 ## VLAN 13 - DMZ
 
-192.168.106.248/30
+Netwerk: 192.168.106.248/30
 
-| Device | Interface | IP address      | Subnetmask      | Default gateway |
-| ------ | --------- | --------------- | --------------- | --------------- |
-| R1     | G0/0.13   | 192.168.106.249 | 255.255.255.252 | N/A             |
+| Device  | Interface | IP address      | Subnetmask      | Default gateway |
+| ------  | --------- | --------------- | --------------- | --------------- |
+| R1      | G0/0.13   | 192.168.106.249 | 255.255.255.252 | N/A             |
+| proxy   | N/A       | 192.168.106.250 | 255.255.255.252 | 192.168.106.249 |
+
 
 ## ISP
 
-192.168.106.252/30
+Netwerk: 192.168.106.252/30
 
 | Device | Interface | IP address      | Subnetmask      | Default gateway |
 | ------ | --------- | --------------- | --------------- | --------------- |
