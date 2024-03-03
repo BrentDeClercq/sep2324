@@ -61,7 +61,14 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Prijsberekening voor aparatuur opstellen
+- Lijst aangepast mmaar kan nog veranderen
+
+Commits:
+
+- [82fdbc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/82fdbc4561595fe39f946d6fa77b01a2cdaf3d0c)
+
+- [15dcdf](https://github.com/HoGentTIN/sep2324-gent-g06/commit/15dcdf8235c03856134d38d852c89a551f326707)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
