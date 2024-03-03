@@ -40,9 +40,9 @@
 
 ## materiaal
 
-- Grizzly Tape  
-  https://www.bol.com/be/nl/p/grizzly-tape-weefseltape-waterdicht-voor-repareren-versterken-afdichten-aansluiten-extreem-sterk-en-duurzaam-grijs-10-m-x-50-mm/9300000165815559/?bltgh=lxg8S8FGSWWlE7mjjQdFvw.hgJxCJzNDhG5u6xRbhlKgg_0_14.42.ProductTitle  
-   55 euro
+- Ductape  
+  https://www.bol.com/be/nl/p/pattex-power-tape-10-m-zwart-ducttape-ducktape-waterdicht-extreem-sterk-premium-grip-duct-duck-tape/9200000016498153/?bltgh=nGjsZF2K2ezCThbRTedMnQ.2_41.44.ProductImage  
+  10,49 euro
 
 - Cat 6a S/FTP netwerkkabel rol  
   https://www.allekabels.be/netwerk-kabel-per-rol/4581/1290054/cat-6a-sftp-netwerkkabel-per-rol.html?lang=nl-be  
@@ -70,4 +70,4 @@
 
 ## totale kost
 
-De totale kost voor aparatuur en materiaal bedraagd 34.810,85 euro
+De totale kost voor aparatuur en materiaal bedraagd 34.766.34 euro
