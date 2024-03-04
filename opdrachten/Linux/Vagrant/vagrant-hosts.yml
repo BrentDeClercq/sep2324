@@ -58,5 +58,8 @@
   box: bento/almalinux-9
   ip: 192.168.106.234
   netmask: 255.255.255.248
-  networks:
-    - type: "public_network"
+
+- name: tftp-test
+  box: bento/almalinux-9
+  ip: 192.168.106.235
+  netmask: 255.255.255.248

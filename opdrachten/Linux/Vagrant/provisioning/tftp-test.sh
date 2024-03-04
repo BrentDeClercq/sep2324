@@ -31,42 +31,4 @@ source ${PROVISIONING_SCRIPTS}/common.sh
 # Provision server
 #------------------------------------------------------------------------------
 
-log "Starting server specific provisioning tasks on ${HOSTNAME}"
-
-log "Installing tftp-server and tftp"
-
-sudo dnf install -y tftp-server tftp
-
-sudo cp /usr/lib/systemd/system/tftp.service /etc/systemd/system/tftp-server.service
-sudo cp /usr/lib/systemd/system/tftp.socket /etc/systemd/system/tftp-server.socket
-
-sudo tee /etc/systemd/system/tftp-server.service<<EOF
-[Unit]
-Description=Tftp Server
-Requires=tftp-server.socket
-Documentation=man:in.tftpd
-
-[Service]
-ExecStart=/usr/sbin/in.tftpd -c -p -s /var/lib/tftpboot
-StandardInput=socket
-
-[Install]
-WantedBy=multi-user.target
-Also=tftp-server.socket
-EOF
-
-sudo systemctl daemon-reload
-
-sudo systemctl enable --now tftp-server
-
-sudo chmod 777 /var/lib/tftpboot
-
-
-sudo firewall-cmd --add-service=tftp --permanent
-sudo firewall-cmd --reload
-
-# Test files
-sudo touch  /var/lib/tftpboot/file{1..3}.txt
-echo "Hello File 1" | sudo tee /var/lib/tftpboot/file1.txt
-echo "Hello File 2" | sudo tee /var/lib/tftpboot/file2.txt
-echo "Hello File 3" | sudo tee /var/lib/tftpboot/file3.txt
+sudo dnf install -y tftp
