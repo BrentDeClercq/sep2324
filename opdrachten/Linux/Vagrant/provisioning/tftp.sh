@@ -24,8 +24,6 @@ export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
 # "Imports"
 #------------------------------------------------------------------------------
 
-# Utility functions
-source ${PROVISIONING_SCRIPTS}/util.sh
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
 
@@ -35,5 +33,4 @@ source ${PROVISIONING_SCRIPTS}/common.sh
 
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
-# TODO: insert code here, e.g. install Apache, add users (see the provided
-# functions in utils.sh), etc.
+# TODO: insert code here, e.g. install Apache, add users, etc.
