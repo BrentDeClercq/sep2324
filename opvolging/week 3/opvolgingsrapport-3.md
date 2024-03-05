@@ -93,7 +93,13 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Installatieplan uitgewerkt in detail via ConceptDraw
+- Versie van server rack uitgewerkt
+
+Commits:
+
+- [e09836c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e09836c5183370a6da00785d45c7899f9b558132)
+- [620e826](https://github.com/HoGentTIN/sep2324-gent-g06/commit/620e826f4f8fd13ed66d65c5dded58828d15c91e)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -136,7 +142,8 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Linux database configureren
+- Linux database firewall configureren
 
 ### Rayane Yousti
 
