@@ -100,7 +100,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Het netwerkschema deels maken
 
 ### Nobel Fiers
 
@@ -126,14 +126,14 @@ Commits:
 
 <!-- Voeg hier zaken toe die jullie goed doen naar het proces toe. -->
 
-- ...
+- Het verdelen van taken
 - ...
 
 ### Waar hebben jullie nog problemen mee?
 
 <!-- Voeg hier zaken toe die volgens jullie beter kunnen naar het proces toe. -->
 
-- ...
+- Het maken van de jira kaarten.
 - ...
 
 ### Feedback
