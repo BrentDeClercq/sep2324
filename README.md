@@ -5,8 +5,8 @@
 | Brent De Clercq | [BrentDeClercq](https://github.com/BrentDeClercq) |
 | Kenji De Coster | [KenjiDeCoster](https://github.com/KenjiDeCoster) |
 | Nobel Fiers     | [NobelFiers](https://github.com/NobelFiers)       |
-| Julie De Witte        | [JulieDeWitte](https://github.com/JulieDeWitte)          |
-| Rayane Yousti        | [RayaneYousti](https://github.com/RayaneYousti)           |
+| Julie De Witte  | [JulieDeWitte](https://github.com/JulieDeWitte)   |
+| Rayane Yousti   | [RayaneYousti](https://github.com/RayaneYousti)   |
 
 Dit is de repository voor het projectvak System Engineering Project.
 
@@ -58,3 +58,13 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 ## Inhoud GitHub repo
 
 <!-- Vul aan. -->
+
+- Opvolging
+  - [Week 2](./opvolging/week%202/opvolgingsrapport-2.md)
+  - [Week 3](./opvolging/week%203/opvolgingsrapport-3.md)
+- Opdrachten
+  - Linux
+    - TFTP
+      - [Lastenboek](./opdrachten/Linux/TFTP/lastenboek.md)
+      - [Testplan](./opdrachten/Linux/TFTP/testplan.md)
+      - [Testrapport](./opdrachten/Linux/TFTP/testrapport.md)
