@@ -4,14 +4,15 @@
 
 <!-- Som hier de concrete eindresultaten op die je voor deze opdracht moet opleveren. -->
 
-- ...
+- Werkende TFTP server
+- Bereikbaar vanop andere VM of Switch/router
 
 ## Deeltaken
 
 <!-- Som hier de deeltaken voor deze opdracht op en duid voor elk een verantwoordelijke en tester aan. Vermeld ook afhankelijkheden tussen deeltaken als die er zijn. Elke deeltaak wordt een kaartje op het kanban-bord! -->
 
-1. ...
-   - Verantwoordelijke: <!-- Naam. -->
+1. Installatie in vagrant (lokaal laten werken)
+   - Verantwoordelijke: Brent De Clercq
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 2. ...
    - Verantwoordelijke: <!-- Naam. -->
@@ -19,13 +20,13 @@
 
 ## Tijdbesteding
 
-| Student       | Geschat | Gerealiseerd |
-| :------------ | ------: | -----------: |
-| <!-- NAAM --> |         |              |
-| <!-- NAAM --> |         |              |
-| <!-- NAAM --> |         |              |
-| <!-- NAAM --> |         |              |
-| <!-- NAAM --> |         |              |
-| **Totaal**    |         |              |
+| Student         | Geschat | Gerealiseerd |
+| :-------------- | ------: | -----------: |
+| Brent De Clercq |      1h |           2h |
+| <!-- NAAM -->   |         |              |
+| <!-- NAAM -->   |         |              |
+| <!-- NAAM -->   |         |              |
+| <!-- NAAM -->   |         |              |
+| **Totaal**      |         |              |
 
 <!-- Voeg na oplevering van de taak een schermafbeelding van rapport tijdbesteding voor deze taak toe. -->
