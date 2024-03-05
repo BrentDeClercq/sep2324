@@ -42,18 +42,22 @@
 - Subnetten herbekeken
 - Aanpassen van subnet DMZ van /30 naar /29
 - Updaten IP-adressen tabel
+- Start installatie van TFTP
 
 Commits:
 
 - [edf8b4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/edf8b48756a76fc9b2f2668b08b52fee35067ec6)
-
-
+- [0f39192](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0f39192877b528878eb7f549e571b73d7977edaa)
+- [e47c932](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e47c93239810a14e743298712396477f94add0b5)
+- [ba19aa5](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ba19aa515afb36e059f6eab5e8b47fb5f1f02772)
+- [9cf5392](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9cf5392b22f3497abdda3d1cd0b9c3d7a16f2c7c)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ### Kenji De Coster
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
+
 - IP-adressen tabel een klein beetje aangepast
 - netwerkschema van onze offerte opgesteld + het netwerkschema voor de packet tracer wat aangepast
 
@@ -114,7 +118,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Starten met de installatie van Linux Database
 
 ### Kenji De Coster
 
@@ -148,7 +152,7 @@ Commits:
 
 - Taken bij maken
 - Taken verdelen
-- 
+-
 - ...
 
 ### Waar hebben jullie nog problemen mee?
