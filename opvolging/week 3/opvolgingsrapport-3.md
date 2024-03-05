@@ -47,15 +47,35 @@ Commits:
 
 - [edf8b4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/edf8b48756a76fc9b2f2668b08b52fee35067ec6)
 
+
+
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ### Kenji De Coster
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
-
-- ...
+- IP-adressen tabel een klein beetje aangepast
+- netwerkschema van onze offerte opgesteld + het netwerkschema voor de packet tracer wat aangepast
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+
+![timesheet2_kenji](./img/timesheet2_kenji.png)
+
+Commits:
+
+- [ecf907a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ecf907a522342d075f578eefd406f7181be2c930)
+
+- [14f6a21](https://github.com/HoGentTIN/sep2324-gent-g06/commit/14f6a21a67056a7dd5b048ac25e67d6c28184de2)
+
+- [4c7ee8b](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4c7ee8bcbbe4b2d30043e787ad06453e6722993e)
+
+- [c353913](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c3539138b367947c5f593033517a3ebb21e08b0c)
+
+- [827d272](https://github.com/HoGentTIN/sep2324-gent-g06/commit/827d272043b61894e967cead494448e1d364ba5c)
+
+- [1a2bdc0](https://github.com/HoGentTIN/sep2324-gent-g06/commit/1a2bdc0aba7cf3538015c993842e64c5a1e39fb5)
+
+- [94b2d0e](https://github.com/HoGentTIN/sep2324-gent-g06/commit/94b2d0e350ef12d72317c45efa7a3e60bfc8b4ef)
 
 ### Nobel Fiers
 
@@ -94,7 +114,7 @@ Commits:
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
+- Beginnen aan de basis opstelling
 - ...
 
 ### Brent De Clercq
@@ -107,7 +127,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Vermoedelijk een deel van de linux server configureren
 
 ### Nobel Fiers
 
@@ -133,14 +153,17 @@ Commits:
 
 <!-- Voeg hier zaken toe die jullie goed doen naar het proces toe. -->
 
-- ...
+- Taken bij maken
+- Taken verdelen
+- 
 - ...
 
 ### Waar hebben jullie nog problemen mee?
 
 <!-- Voeg hier zaken toe die volgens jullie beter kunnen naar het proces toe. -->
 
-- ...
+- Het opvolginsgrapport invullen
+- Een logboek bijhouden
 - ...
 
 ### Feedback
