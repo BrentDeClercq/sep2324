@@ -69,7 +69,7 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- Installatieplan
+- Ruwe schets installatieplan
 
 ![timesheet_julie](./img/timesheet_julie.png)
 
@@ -112,7 +112,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Het installatieplan omzetten naar een finale versie met gebruik van ConceptDraw
 
 ### Rayane Yousti
 
