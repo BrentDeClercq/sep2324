@@ -60,33 +60,32 @@
   https://www.serverkast.com/18u-serverkast-met-geperforeerde-deur-600x600x1000mm.html  
    550 euro
 
-- cat6a wandcontactdoos <span style="font-size:larger;">x3</span>  
+- cat6a wandcontactdoos <span style="font-size:larger;">x4</span>  
   https://www.netwerkkabel.eu/nl/accessoires/wandcontactdozen/cat6-wandcontactdoos/  
-  30 euro
+  40 euro
 
-- cat6a vloercontactdoos <span style="font-size:larger;">x3</span>  
+- cat6a vloercontactdoos <span style="font-size:larger;">x4</span>  
   https://www.legrand.be/nl/catalogus/vloercontactdoos-rj45-cat6-ftp-enkelvoudig-vierkant-rvs-089761  
-  240 euro
+  320 euro
 
 ## subsciptions/abonnementen
 
-  - Proxmox basic virtualization subscription <span style="font-size:larger;">x2</span>  
+- Proxmox basic virtualization subscription <span style="font-size:larger;">x2</span>  
   https://www.proxmox.com/en/proxmox-virtual-environment/pricing
   680 euro (incl. btw)
 
-  - Proximus internet superior + norton security solution 
+- Proximus internet superior + norton security solution
   https://www.proximus.be/nl/id_enterprise-pack-together-composer-samenstellen/zelfstandigen-en-kleine-bedrijven/pack-internet-kmo-pme/enterprise-pack-together-voor-kmos/enterprise-pack-configurator.html
   € 1374,00 (€ 114,50 per maand)
 
 ## Werkuren
 
-  - Werkuren bruto  <span style="font-size:larger;">x5</span>  
+- Werkuren bruto <span style="font-size:larger;">x5</span>  
   (200 uur per persoon, € 38,00 bruto --> € 7600,00)
   € 38 000,00
 
-
 ## totale kost
 
-De totale kost voor aparatuur en materiaal bedraagd 34.766.34 euro
+De totale kost voor aparatuur en materiaal bedraagd 34.856.34 euro
 
 De totale kost voor al het materiaal inclusief raming apparatuur, uren, abonnementen, support bedraagd € 71 567,89 inclusief btw.
