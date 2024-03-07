@@ -44,6 +44,8 @@
 - Updaten IP-adressen tabel
 - Start installatie van TFTP
 
+![timesheet3_brent](./img/timesheet3_brent.png)
+
 Commits:
 
 - [edf8b4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/edf8b48756a76fc9b2f2668b08b52fee35067ec6)
@@ -88,6 +90,8 @@ Commits:
 - Prijsberekening voor aparatuur opstellen
 - Lijst aangepast mmaar kan nog veranderen
 
+![timesheet3_nobel](./img/timesheet3_nobel.png)
+
 Commits:
 
 - [82fdbc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/82fdbc4561595fe39f946d6fa77b01a2cdaf3d0c)
@@ -103,6 +107,8 @@ Commits:
 - Installatieplan uitgewerkt in detail via ConceptDraw
 - Versie van server rack uitgewerkt
 
+![timesheet3_julie](./img/timesheet3_julie.png)
+
 Commits:
 
 - [e09836c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e09836c5183370a6da00785d45c7899f9b558132)
@@ -115,6 +121,8 @@ Commits:
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
 - ...
+
+![timesheet3_rayan](./img/timesheet3_rayan.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -143,7 +151,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Switch configureren en verder valt nog te zien.
 
 ### Julie De Witte
 
