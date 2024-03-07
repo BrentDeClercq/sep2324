@@ -2,13 +2,13 @@
 
 ## aparatuur
 
-- Cisco1941 router <span style="font-size:larger;">x2</span>  
-  https://it-planet.com/nl/p/cisco-cisco1941-k9-596.html  
-  700 euro
+- Cisco Network Convergence System 520 Router <span style="font-size:larger;">x2</span>  
+  https://it-market.com/en/servers/other-server-systems/cisco/n520-4g4z-a  
+  7616 euro
 
-- Cisco WS-C2960S switch <span style="font-size:larger;">x4</span>  
- https://it-planet.com/nl/p/cisco-ws-c2960s-48fps-l-1597.html?number=A1001650&c=166  
- 10.800 euro
+- TP-Link Omada TL-SG6654X switch <span style="font-size:larger;">x4</span>  
+ https://www.routershop.nl/tp-link-omada-tl-sg6654x-48-poorts-gigabit-l2-managed-switch-met-4x-10ge-sfp-slots/pid=84450  
+7996 euro
 <!--
 - PowerEdge R6525 proxyserver  
   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r6525-rack-server/spd/poweredge-r6525/pe_r6525_tm_vi_vp_sb  
@@ -22,9 +22,9 @@
    https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r760-rack-server/spd/poweredge-r760/pe_r760_tm_vi_vp_sb  
    7.500 dollar
   -->
-- PowerEdge R860 server voor windows/linux/proxy  
-   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r860-rack-server/spd/poweredge-r860/pe_r860_16717_vi_vp#features_section  
-  16.289 dollar -> 15.011,94
+- PowerEdge R860 server voor windows/linux/proxy <span style="font-size:larger;">x2</span>
+  https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r860-rack-server/spd/poweredge-r860/pe_r860_16717_vi_vp#features_section  
+  32.578 dollar -> 29.777,60 euro
 
 - PowerEdge R750xs TFTP server  
   https://www.dell.com/en-us/shop/servers-storage-and-networking/poweredge-r750xs-rack-server/spd/poweredge-r750xs/pe_r750xs_tm_vi_vp_sb  
@@ -86,6 +86,11 @@
 
 ## totale kost
 
-De totale kost voor aparatuur en materiaal bedraagd 34.856.34 euro
+<!-- DIT STAAT IN  COMMENTAAR WANT ALLES MOET NOG HERBEREKEND WORDEN
+
+ De totale kost voor aparatuur en materiaal bedraagd 34.856.34 euro
 
 De totale kost voor al het materiaal inclusief raming apparatuur, uren, abonnementen, support bedraagd € 71 567,89 inclusief btw.
+
+
+-->
