@@ -1,26 +1,34 @@
 # Testrapport
 
-- Uitvoerder(s) test: <!-- Naam. -->
-- Uitgevoerd op: <!-- Datum. -->
+- Uitvoerder(s) test: Kenji De Coster
+- Uitgevoerd op: 8/3/2024
 - Github commit: <!-- Git commit hash. -->
 
-## Test: <!-- Omschrijving test. -->
+## Test: Vagrant Up, TFTP server moet lokaal draaien
 
-Test procedure:
+Testprocedure:
 
-1. ...
-2. ...
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up tftp`
+3. ssh naar server: `vagrant ssh tftp`
+4. Er worden een aantal testbestanden automatisch toegevoegd aan de TFTP server: `file1.txt`, `file2.txt` en `file3.txt`
+5. Haal deze bestanden op van de tftp server via volgende commando's:
+6. `tftp localhost`
+7. `get file1.txt`
+8. `quit`
 
 Verkregen resultaat:
 
-- ...
-- ...
+- Dit werkt direct zonder `Request Timed Out`
+- Er staat nu een bestand file1.txt in de map waar je het commando `tftp localhost` hebt uitgevoerd, dit bestand bevat de tekst `Hello File 1`
 
-<!-- Voeg hier eventueel een screenshot van het verkregen resultaat in. -->
+<!-- Voeg hier eventueel een screenshot van het verkregen resultaat in.-->
+
+![alt text](image.png)
 
 Test geslaagd:
 
-- [ ] Ja
+- [x] Ja
 - [ ] Nee
 
 Opmerkingen:
