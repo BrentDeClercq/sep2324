@@ -8,7 +8,7 @@ Testprocedure:
 
 1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
 2. Voer volgend commando uit: `vagrant up tftp`
-3. ssh naar server: ``vagrant ssh tftp`
+3. ssh naar server: `vagrant ssh tftp`
 4. Er worden een aantal testbestanden automatisch toegevoegd aan de TFTP server: `file1.txt`, `file2.txt` en `file3.txt`
 5. Haal deze bestanden op van de tftp server via volgende commando's:
 6. `tftp localhost`
