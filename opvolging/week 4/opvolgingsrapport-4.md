@@ -39,7 +39,11 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Installatie MariaDB op de database server
+
+Commits:
+
+- [9d1bb54](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9d1bb5483e52ce69117b9d99b9f780f19871b8e7)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
