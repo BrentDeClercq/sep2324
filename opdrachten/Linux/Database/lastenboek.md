@@ -12,13 +12,13 @@
 <!-- Som hier de deeltaken voor deze opdracht op en duid voor elk een verantwoordelijke en tester aan. Vermeld ook afhankelijkheden tussen deeltaken als die er zijn. Elke deeltaak wordt een kaartje op het kanban-bord! -->
 
 1. Installatie
-   - Verantwoordelijke: Brent
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Verantwoordelijke: Brent De Clercq
+   - Tester: Kenji De Coster
 2. Configuratie
-   - Verantwoordelijke: Julie
+   - Verantwoordelijke: Julie De Witte 
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 3. Firewall
-   - Verantwoordelijke: Julie
+   - Verantwoordelijke: Julie De Witte
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 4. Enkel login via ssh en niet via root account
    - Verantwoordelijke: <!-- Naam. -->
@@ -29,7 +29,7 @@
 | Student         | Geschat | Gerealiseerd |
 | :-------------- | ------: | -----------: |
 | Brent De Clercq |  30 min |              |
-| <!-- NAAM -->   |         |              |
+| Kenji De Coster |  15 min |    5 min     |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |

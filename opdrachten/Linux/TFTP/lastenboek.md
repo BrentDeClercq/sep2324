@@ -13,7 +13,7 @@
 
 1. Installatie in vagrant (lokaal laten werken)
    - Verantwoordelijke: Brent De Clercq
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Tester: Kenji De Coster
 2. ...
    - Verantwoordelijke: <!-- Naam. -->
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
@@ -22,8 +22,8 @@
 
 | Student         | Geschat | Gerealiseerd |
 | :-------------- | ------: | -----------: |
-| Brent De Clercq |      1h |           2h |
-| <!-- NAAM -->   |         |              |
+| Brent De Clercq |    1h   |      2h      |
+| Kenji De Coster |  15 min |     5 min    |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
