@@ -40,10 +40,13 @@
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
 - Installatie MariaDB op de database server
+- Installatie HTTP/Apache op de webserver
 
 Commits:
 
 - [9d1bb54](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9d1bb5483e52ce69117b9d99b9f780f19871b8e7)
+- [9b0399](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9b039910c033ef4c5ba8710f61cd6ba53aaef37e)
+- [9939de](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9939def32cb12d2ed1ccd7ee27248fa565ca6e45)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
