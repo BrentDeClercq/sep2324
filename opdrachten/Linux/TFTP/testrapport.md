@@ -24,7 +24,7 @@ Verkregen resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verkregen resultaat in.-->
 
-![alt text](image.png)
+![alt text](./img/File1.png)
 
 Test geslaagd:
 

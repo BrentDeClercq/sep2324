@@ -13,8 +13,8 @@
 <!-- Som hier de deeltaken voor deze opdracht op en duid voor elk een verantwoordelijke en tester aan. Vermeld ook afhankelijkheden tussen deeltaken als die er zijn. Elke deeltaak wordt een kaartje op het kanban-bord! -->
 
 1. Installatie webserver
-   - Verantwoordelijke: Brent
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Verantwoordelijke: Brent De Clercq
+   - Tester: Kenji De Coster
 2. Installatie CMS
    - Verantwoordelijke: <!-- Naam. -->
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
@@ -23,8 +23,8 @@
 
 | Student         | Geschat | Gerealiseerd |
 | :-------------- | ------: | -----------: |
-| Brent De Clercq |      3h |              |
-| <!-- NAAM -->   |         |              |
+| Brent De Clercq |    3h   |              |
+| Kenji De Coster |  15 min |    10 min    |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
