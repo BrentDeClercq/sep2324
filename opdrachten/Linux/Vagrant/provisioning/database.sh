@@ -27,6 +27,7 @@ export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
 
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
+source "/vagrant/vars.sh"
 
 #------------------------------------------------------------------------------
 # Provision server
@@ -35,7 +36,7 @@ source ${PROVISIONING_SCRIPTS}/common.sh
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
-sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
+sudo ifconfig eth1 ${IP_DATABASE} netmask ${NETMASK_DATABASE}
 
 log "Installing MariaDB server"
 
