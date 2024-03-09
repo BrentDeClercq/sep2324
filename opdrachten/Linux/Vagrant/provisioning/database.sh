@@ -19,9 +19,7 @@ set -o pipefail  # don't mask errors in piped commands
 export readonly PROVISIONING_SCRIPTS="/vagrant/provisioning/"
 # Location of files to be copied to this server
 export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
-# Network vars
-export readonly IP_ADDRESS="192.168.106.243"
-export readonly NETMASK="255.255.255.248"
+
 
 #------------------------------------------------------------------------------
 # "Imports"
@@ -37,7 +35,7 @@ source ${PROVISIONING_SCRIPTS}/common.sh
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
-sudo ifconfig eth1 ${IP_ADDRESS} netmask ${NETMASK}
+sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
 
 log "Installing MariaDB server"
 
