@@ -18,22 +18,33 @@
 
 ### Algemeen
 
-- ...
-- ...
+- Subnetten klaar
+- Netwerkschema
+- Prijslijst
+- Installatieplan
+- Offerte
 
 #### KanBan
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
+Oeps vergeten (nu te laat)
+
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+
+![timesheet_algemeen](./img/timesheet3_algemeen.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
 
+![CF_periode](./img/CF_rapport.png)
+
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+
+![CF_periode](./img/CF_project.png)
 
 ### Brent De Clercq
 
