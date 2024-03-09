@@ -26,7 +26,7 @@ export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
 
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
-
+source /vagrant/vars.sh
 #------------------------------------------------------------------------------
 # Provision server
 #------------------------------------------------------------------------------
