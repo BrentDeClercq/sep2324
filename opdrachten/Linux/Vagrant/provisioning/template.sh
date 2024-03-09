@@ -29,7 +29,7 @@ export readonly NETMASK="255.255.255.248"
 
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
-
+source /vagrant/vars.sh
 #------------------------------------------------------------------------------
 # Provision server
 #------------------------------------------------------------------------------

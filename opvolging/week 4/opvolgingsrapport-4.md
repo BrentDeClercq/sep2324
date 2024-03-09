@@ -39,7 +39,18 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Installatie MariaDB op de database server
+- Installatie HTTP/Apache op de webserver
+- Installatie en configuratie van CMS: Wordpress
+
+Commits:
+
+- [9d1bb54](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9d1bb5483e52ce69117b9d99b9f780f19871b8e7)
+- [9b0399](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9b039910c033ef4c5ba8710f61cd6ba53aaef37e)
+- [9939de](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9939def32cb12d2ed1ccd7ee27248fa565ca6e45)
+- [fd8e348](https://github.com/HoGentTIN/sep2324-gent-g06/commit/fd8e34845e4c849dc8da0e037d01db4e96276ec5)
+- [2dc6f30](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2dc6f3069e9c1ebff158d6cae1a1fa94455e5a4a)
+- [315ab1d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/315ab1dc29a557f953b8881f4f506c470fb6a8dc)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 

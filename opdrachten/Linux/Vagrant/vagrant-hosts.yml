@@ -64,3 +64,6 @@
 
 - name: database
   box: bento/almalinux-9
+
+- name: web
+  box: bento/almalinux-9
