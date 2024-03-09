@@ -16,18 +16,18 @@
    - Verantwoordelijke: Brent De Clercq
    - Tester: Kenji De Coster
 2. Installatie CMS
-   - Verantwoordelijke: <!-- Naam. -->
+   - Verantwoordelijke: Brent De Clercq
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 
 ## Tijdbesteding
 
-| Student         | Geschat | Gerealiseerd |
-| :-------------- | ------: | -----------: |
-| Brent De Clercq |    3h   |              |
-| Kenji De Coster |  15 min |    10 min    |
-| <!-- NAAM -->   |         |              |
-| <!-- NAAM -->   |         |              |
-| <!-- NAAM -->   |         |              |
-| **Totaal**      |         |              |
+| Student         |  Geschat | Gerealiseerd |
+| :-------------- | -------: | -----------: |
+| Brent De Clercq | 30m + 3h |  29m + 2h30m |
+| Kenji De Coster |   15 min |       10 min |
+| <!-- NAAM -->   |          |              |
+| <!-- NAAM -->   |          |              |
+| <!-- NAAM -->   |          |              |
+| **Totaal**      |          |              |
 
 <!-- Voeg na oplevering van de taak een schermafbeelding van rapport tijdbesteding voor deze taak toe. -->
