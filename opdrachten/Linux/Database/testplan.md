@@ -33,6 +33,8 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
+![FirewallPorts](./img/FirewallPorts.png)
+
 ## Test: <!-- Omschrijving test. -->
 
 ...
