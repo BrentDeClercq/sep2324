@@ -44,3 +44,10 @@ sudo dnf install -y mariadb-server
 
 sudo systemctl enable --now mariadb
 
+
+# Firewall settings
+sudo firewall-cmd --zone=public --add-port=22/tcp --permanent
+sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
+
+sudo firewall-cmd --reload
+
