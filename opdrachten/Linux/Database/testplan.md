@@ -1,6 +1,6 @@
 # Testplan
 
-- Auteur(s) testplan: Brent De Clercq
+- Auteur(s) testplan: Brent De Clercq, Julie De Witte
 
 ## Test: Installatie
 
