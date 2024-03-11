@@ -18,7 +18,7 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
-## Test: <!-- Omschrijving test. -->
+## Test: Firewall
 
 Testprocedure:
 
@@ -26,7 +26,6 @@ Testprocedure:
 2. Voer volgend commando uit: `vagrant up database`
 3. ssh naar server: `vagrant ssh database`
 4. Controleer de openstaande poorten bij de firewall-service. Ga na dat dit enkel poort 22 & 3306 is: `sudo firewall-cmd --list-all`
-   
 
 Verwacht resultaat:
 
