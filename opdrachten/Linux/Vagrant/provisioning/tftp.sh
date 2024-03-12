@@ -34,7 +34,7 @@ source /vagrant/vars.sh
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
-sudo ifconfig eth1 $IP_TFTP netmask $NETMASK_TFTP
+sudo ifconfig eth1 ${IP_TFTP} netmask ${NETMASK_TFTP}
 
 log "Installing tftp-server and tftp"
 
