@@ -31,4 +31,5 @@ source /vagrant/vars.sh
 # Provision server
 #------------------------------------------------------------------------------
 
-sudo dnf install -y tftp
+# Network settings
+sudo ifconfig eth1 $IP_TFTP_TEST netmask $NETMASK_TFTP
