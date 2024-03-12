@@ -56,14 +56,25 @@
 
 - name: tftp
   box: bento/almalinux-9
+  networks:
+    - type: "public_network"
+      bridge: "Wi-Fi"
+#     - type: "private_network"
+#  virtualbox__intnet: true
+#  intnet: true
 
-# - name: tftp-test
-#   box: bento/almalinux-9
-#   ip: 192.168.106.235
-#   netmask: 255.255.255.248
+- name: tftp-test
+  box: bento/almalinux-9
+  networks:
+    - type: "public_network"
+      bridge: "Wi-Fi"
+#    - type: "private_network"
+#  virtualbox__intnet: true
+#  intnet: true
 
 - name: database
   box: bento/almalinux-9
 
 - name: web
   box: bento/almalinux-9
+
