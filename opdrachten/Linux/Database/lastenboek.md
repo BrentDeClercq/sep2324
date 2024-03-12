@@ -15,11 +15,11 @@
    - Verantwoordelijke: Brent De Clercq
    - Tester: Kenji De Coster
 2. Configuratie
-   - Verantwoordelijke: Julie De Witte 
+   - Verantwoordelijke: Julie De Witte
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 3. Firewall
    - Verantwoordelijke: Julie De Witte
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Tester: Brent De Clercq
 4. Enkel login via ssh en niet via root account
    - Verantwoordelijke: <!-- Naam. -->
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
@@ -29,7 +29,7 @@
 | Student         | Geschat | Gerealiseerd |
 | :-------------- | ------: | -----------: |
 | Brent De Clercq |  30 min |              |
-| Kenji De Coster |  15 min |    5 min     |
+| Kenji De Coster |  15 min |        5 min |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |

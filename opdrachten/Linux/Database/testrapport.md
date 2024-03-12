@@ -31,23 +31,26 @@ Opmerkingen:
 
 - ...
 
-## Test: <!-- Omschrijving test. -->
+## Test: Firewall
 
 Test procedure:
 
-1. ...
-2. ...
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up database`
+3. ssh naar server: `vagrant ssh database`
+4. Controleer de openstaande poorten bij de firewall-service. Ga na dat dit enkel poort 22 & 3306 is: `sudo firewall-cmd --list-all`
 
 Verkregen resultaat:
 
-- ...
-- ...
+- Enkel poort 22 & poort 3306 zijn bereikbaar
 
 <!-- Voeg hier eventueel een screenshot van het verkregen resultaat in. -->
 
+![FirewallTest](./img/FirewallTest.png)
+
 Test geslaagd:
 
-- [ ] Ja
+- [x] Ja
 - [ ] Nee
 
 Opmerkingen:
