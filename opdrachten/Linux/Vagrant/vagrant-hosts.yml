@@ -78,3 +78,5 @@
 - name: web
   box: bento/almalinux-9
 
+- name: tf
+  box: bento/almalinux-9
