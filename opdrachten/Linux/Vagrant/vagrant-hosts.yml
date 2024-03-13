@@ -80,3 +80,6 @@
 
 - name: tf
   box: bento/almalinux-9
+
+- name: proxy
+  box: bento/almalinux-9
