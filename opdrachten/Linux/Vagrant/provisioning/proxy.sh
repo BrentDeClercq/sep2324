@@ -63,3 +63,45 @@ EOF
 
 sudo systemctl reload nginx
 
+# Certificaten
+
+# openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout g06-tenurit.internal.key -out g06-tenurit.internal.crt - -subj "/C=BE/ST=Oost-vlaanderen/L=Gent/O=TenurIT/OU=./CN=g06-tenurit.internal"
+
+# sudo nano /etc/nginx/conf.d/g06-tenurit.conf
+
+#server {
+#    listen 443 ssl;
+#    server_name g06-tenurit.internal www.g06-tenurit.internal;
+
+#    ssl_certificate /home/vagrant/g06-tenurit.internal.crt;
+#    ssl_certificate_key /home/vagrant/g06-tenurit.internal.key;
+
+#sudo mkdir -p /etc/nginx/ssl/
+#sudo mv /home/vagrant/g06-tenurit.internal.crt /etc/nginx/ssl/
+#sudo mv /home/vagrant/g06-tenurit.internal.key /etc/nginx/ssl/
+#etc/nginx/ssl
+
+#sudo chmod 644 /etc/nginx/ssl/g06-tenurit.internal.crt
+#sudo chmod 755 /etc/nginx/ssl
+
+#sudo chown nginx:nginx /etc/nginx/ssl/g06-tenurit.internal.crt
+#sudo chown nginx:nginx /etc/nginx/ssl
+
+#sudo setenforce 0
+
+
+
+    # Other SSL configuration...
+
+#    location / {
+#        proxy_pass http://192.168.106.250:80;
+#        proxy_set_header Host $host;
+#        proxy_set_header X-Real-IP $remote_addr;
+#        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+#        proxy_set_header X-Forwarded-Proto $scheme;
+#    }
+#}
+
+#sudo chown nginx:nginx /home/vagrant/g06-tenurit.internal.crt
+
+# sudo systemctl restart nginx
