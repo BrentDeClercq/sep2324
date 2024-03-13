@@ -35,18 +35,8 @@ source "/vagrant/vars.sh"
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
-sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
-
-log "Installing MariaDB server"
-
-sudo dnf install -y mariadb-server
-
-sudo systemctl enable --now mariadb
+sudo ifconfig eth1 $IP_TFTP netmask $NETMASK_TFTP
 
 
-# Firewall settings
-sudo firewall-cmd --zone=public --add-port=22/tcp --permanent
-sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
-
-sudo firewall-cmd --reload
+# Installatie
 
