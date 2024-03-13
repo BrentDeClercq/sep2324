@@ -36,7 +36,7 @@ source "/vagrant/vars.sh"
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
-sudo ifconfig eth1 ${IP_DATABASE} netmask ${NETMASK_DATABASE}
+sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
 
 log "Installing MariaDB server"
 

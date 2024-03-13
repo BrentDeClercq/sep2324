@@ -72,9 +72,8 @@
 #  virtualbox__intnet: true
 #  intnet: true
 
-- name: database
+- name: db
   box: bento/almalinux-9
 
 - name: web
   box: bento/almalinux-9
-
