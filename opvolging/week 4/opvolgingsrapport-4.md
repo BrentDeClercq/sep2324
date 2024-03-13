@@ -66,7 +66,11 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- configureren switch packet tracer en pingen getest.
+  ![timesheet3_nobel](./img/timesheet3_nobel.png)
+  Commits:
+
+- [97fc8bf](https://github.com/HoGentTIN/sep2324-gent-g06/pull/35/commits/97fc8bf6fdf881a577fc0f0f97e6eca5d0f1ccb9)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -111,7 +115,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Proberen de windows server to configureren indien deze nog niet geconfigureerd is en mogelijks ook shared folders opstellen.
 
 ### Julie De Witte
 
