@@ -27,9 +27,10 @@ NETMASK_PROXY="255.255.255.252"
 #---------------------------------------------------------
 db_name="wp"
 db_user="tenurit"
-db_password="tenurIT.2024"
+db_user_passwd="tenurIT.2024"
+db_root_passwd="tenurIT.2023"
 
-db_bind_address="10.0.2.15" ## => Ip-address van webserver
+db_bind_address="192.168.106.244" ## => Ip-address van webserver
 db_config_path="/etc/my.cnf.d/mariadb-server.cnf"
 
 #---------------------------------------------------------

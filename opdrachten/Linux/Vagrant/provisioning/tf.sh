@@ -36,7 +36,7 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
 sudo ifconfig eth1 $IP_TFTP netmask $NETMASK_TFTP
-
+sudo systemctl restart NetworkManager
 
 # Installatie
 
