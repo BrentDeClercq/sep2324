@@ -31,9 +31,26 @@ Verwacht resultaat:
 
 - Enkel poort 22 & poort 3306 zijn bereikbaar.
 
+
+## Test: Configuratie
+
+Testprocedure:
+
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up database`
+4. ssh naar server: `vagrant ssh database`
+5. Ga na of het bind-address het IP-adres is van de webserver (10.0.2.15): `cat /etc/my.cnf.d/mariadb-server.cnf`
+6. Scroll in deze file naar de regel waar 'bind-address' zich bevindt, en ga na dat deze wel degelijk 10.0.2.15 is.
+
+Verwacht resultaat:
+
+- Het bind-address is correct ingesteld op het IP-adres van de webserver
+
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
-![FirewallPorts](./img/FirewallPorts.png)
+<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+
+![FirewallPorts](./img/DatabaseConfig.png)
 
 ## Test: <!-- Omschrijving test. -->
 
