@@ -36,3 +36,4 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
 sudo ifconfig eth1 ${IP_ADDRESS} netmask ${NETMASK}
+sudo systemctl restart NetworkManager
