@@ -87,7 +87,9 @@ sudo systemctl reload nginx
 #sudo chown nginx:nginx /etc/nginx/ssl/g06-tenurit.internal.crt
 #sudo chown nginx:nginx /etc/nginx/ssl
 
-#sudo setenforce 0
+#sudo sudo setsebool -P httpd_can_network_connect 1
+#sudo setsebool -P httpd_can_network_connect_https 1
+
 
 
 
