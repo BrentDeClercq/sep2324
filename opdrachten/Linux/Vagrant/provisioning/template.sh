@@ -19,9 +19,7 @@ set -o pipefail  # don't mask errors in piped commands
 export readonly PROVISIONING_SCRIPTS="/vagrant/provisioning/"
 # Location of files to be copied to this server
 export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
-# Network vars
-export readonly IP_ADDRESS="192.168.106.234"
-export readonly NETMASK="255.255.255.248"
+
 
 #------------------------------------------------------------------------------
 # "Imports"
@@ -29,7 +27,7 @@ export readonly NETMASK="255.255.255.248"
 
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
-source /vagrant/vars.sh
+source "/vagrant/vars.sh"
 #------------------------------------------------------------------------------
 # Provision server
 #------------------------------------------------------------------------------

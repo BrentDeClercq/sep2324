@@ -20,16 +20,23 @@ export readonly PROVISIONING_SCRIPTS="/vagrant/provisioning/"
 # Location of files to be copied to this server
 export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
 
+
 #------------------------------------------------------------------------------
 # "Imports"
 #------------------------------------------------------------------------------
 
 # Actions/settings common to all servers
 source ${PROVISIONING_SCRIPTS}/common.sh
-source /vagrant/vars.sh
+source "/vagrant/vars.sh"
 #------------------------------------------------------------------------------
 # Provision server
 #------------------------------------------------------------------------------
 
+log "Starting server specific provisioning tasks on ${HOSTNAME}"
+
 # Network settings
-sudo ifconfig eth1 $IP_TFTP_TEST netmask $NETMASK_TFTP
+sudo ifconfig eth1 $IP_TFTP netmask $NETMASK_TFTP
+
+
+# Installatie
+
