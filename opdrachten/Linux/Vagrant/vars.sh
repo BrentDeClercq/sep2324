@@ -21,6 +21,8 @@ db_name="wp"
 db_user="tenurit"
 db_password="tenurIT.2024"
 
+db_bind_address="10.0.2.15" ## => Ip-address van webserver
+db_config_path="/etc/my.cnf.d/mariadb-server.cnf"
 
 #---------------------------------------------------------
 # Webserver

@@ -51,3 +51,13 @@ sudo firewall-cmd --zone=public --add-port=3306/tcp --permanent
 
 sudo firewall-cmd --reload
 
+# Connections
+if [ -f "${db_config_path}" ] && [ -r "${db_config_path}" ]; then
+
+    sudo sed -i "s/^bind-address\s*=.*$/bind-address = ${db_bind_address}/" /etc/my.cnf.d/mariadb-server.cnf
+
+    sudo systemctl restart mariadb
+    echo "Het bind-address in mariadb-server.cnf is gewijzigd naar ${db_bind_address}"
+else
+    echo "Fout: Kan mariadb-server.cnf niet vinden of het is niet leesbaar."
+fi
