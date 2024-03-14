@@ -34,6 +34,7 @@
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
 
+![alt text](./img/jira.png)
 
 #### Cumulatief flow diagram
 
@@ -80,7 +81,12 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Testplan van database installatie, webserver installatie, tftp installatie uitgevoerd
+- bijhorende testrapporten ingevuld
+- tftp bereikbaarheid proberen oplossen maar nog altijd geen resultaat
+- begonnen aan de proxy server, installatie is klaar, certificaten nog niet volledig
+
+![alt text](./img/timesheet3_kenji.png)
 
 Commits:
 
@@ -139,13 +145,14 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- tftp server afwerken
+- proxy HTTP/2 over TLS & nmap obfuscation instellen
 
 ### Kenji De Coster
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- Proxy server afwerken
+- Proxy server certificaten afwerken
 - installatie plan en offerte aanpassen aan de gegeven commentaar
 
 ### Nobel Fiers
