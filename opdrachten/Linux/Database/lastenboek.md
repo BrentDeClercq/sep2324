@@ -20,19 +20,22 @@
 3. Firewall
    - Verantwoordelijke: Julie De Witte
    - Tester: Brent De Clercq
-4. Enkel login via ssh en niet via root account
+4. User en database aanmaken
+   - Verantwoordelijke: Brent De Clercq
+   - Tester:
+5. Enkel login via ssh en niet via root account
    - Verantwoordelijke: <!-- Naam. -->
    - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
 
 ## Tijdbesteding
 
-| Student         | Geschat | Gerealiseerd |
-| :-------------- | ------: | -----------: |
-| Brent De Clercq |  30 min |              |
-| Kenji De Coster |  15 min |        5 min |
-| <!-- NAAM -->   |         |              |
-| <!-- NAAM -->   |         |              |
-| <!-- NAAM -->   |         |              |
-| **Totaal**      |         |              |
+| Student         |        Geschat | Gerealiseerd |
+| :-------------- | -------------: | -----------: |
+| Brent De Clercq | 30 min + 1h45m |     29m + 2h |
+| Kenji De Coster |         15 min |        5 min |
+| <!-- NAAM -->   |                |              |
+| <!-- NAAM -->   |                |              |
+| <!-- NAAM -->   |                |              |
+| **Totaal**      |                |              |
 
 <!-- Voeg na oplevering van de taak een schermafbeelding van rapport tijdbesteding voor deze taak toe. -->

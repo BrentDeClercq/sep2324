@@ -76,7 +76,7 @@ sudo sed -i "s/define( 'DB_NAME', '.*' );/define( 'DB_NAME', '$db_name' );/" $wp
 
 sudo sed -i "s/define( 'DB_USER', '.*' );/define( 'DB_USER', '$db_user' );/" $wp_config_path
 
-sudo sed -i "s/define( 'DB_PASSWORD', '.*' );/define( 'DB_PASSWORD', '$db_password' );/" $wp_config_path
+sudo sed -i "s/define( 'DB_PASSWORD', '.*' );/define( 'DB_PASSWORD', '$db_user_passwd' );/" $wp_config_path
 
 sudo sed -i "s/define( 'DB_HOST', '.*' );/define( 'DB_HOST', '$IP_DATABASE' );/" $wp_config_path
 
