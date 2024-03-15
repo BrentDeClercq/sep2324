@@ -1,5 +1,5 @@
 #---------------------------------------------------------
-# Network settings
+# Network settings SEP
 #---------------------------------------------------------
 
 # Database
@@ -37,3 +37,16 @@ db_config_path="/etc/my.cnf.d/mariadb-server.cnf"
 # Webserver
 #---------------------------------------------------------
 wp_config_path="/var/www/html/wordpress/wp-config.php"
+
+
+#---------------------------------------------------------
+# Network settings Brent
+#---------------------------------------------------------
+
+# # Database
+# IP_DATABASE="192.168.7.10"
+# NETMASK_DATABASE="255.255.252.0"
+
+# # Web
+# IP_WEB="192.168.7.11"
+# NETMASK_WEB="255.255.252.0"
