@@ -33,7 +33,7 @@ Opmerkingen:
 
 ## Test: Firewall
 
-Test procedure:
+Testprocedure:
 
 1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
 2. Voer volgend commando uit: `vagrant up database`
@@ -57,6 +57,29 @@ Opmerkingen:
 
 - ...
 
-## Test: <!-- Omschrijving test. -->
+## Test: Configuratie
 
-...
+Testprocedure:
+
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up db`
+3. ssh naar server: `vagrant ssh db`
+4. Ga na of het bind-address het IP-adres is van de webserver (10.0.2.15): `cat /etc/my.cnf.d/mariadb-server.cnf`
+5. Scroll in deze file naar de regel waar 'bind-address' zich bevindt, en ga na dat deze wel degelijk 10.0.2.15 is.
+
+Verkregen resultaat:
+
+- Bind adress is niet ingesteld
+
+<!-- Voeg hier eventueel een screenshot van het verkregen resultaat in. -->
+
+![bind-address_foot](./img/bind-address_fout.png)
+
+Test geslaagd:
+
+- [ ] Ja
+- [x] Nee
+
+Opmerkingen:
+
+- Er is een probleem met het sed commando denk ik

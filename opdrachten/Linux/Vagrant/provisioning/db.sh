@@ -76,6 +76,8 @@ else
 fi
 
 
+
+# Maak gebruiker en database aan en stel root wachtworod in
 if is_mysql_root_password_empty; then
 mysql <<_EOF_
   SET PASSWORD FOR 'root'@'localhost' = PASSWORD('${db_root_passwd}');
