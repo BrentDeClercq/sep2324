@@ -43,6 +43,15 @@ Verwacht resultaat:
 ![wp_db_error](./img/wp_db_error.png)
 ![wp_config](./img/wp_config.png)
 
-## Test: <!-- Omschrijving test. -->
+## Test: Login en post maken
 
-...
+Testprocedure:
+
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up web`
+3. ssh naar server: `vagrant ssh web db`
+4. surf naar het ip address
+5. je zal onderstaand scherm zien, hier moet je zelf nog dingen invullen
+6. nu kan je inloggen en een post aanmaken
+
+![wp_install](./img/wp_install.png)

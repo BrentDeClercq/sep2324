@@ -80,6 +80,9 @@ sudo sed -i "s/define( 'DB_PASSWORD', '.*' );/define( 'DB_PASSWORD', '$db_user_p
 
 sudo sed -i "s/define( 'DB_HOST', '.*' );/define( 'DB_HOST', '$IP_DATABASE' );/" $wp_config_path
 
+# Zorg ervoor dat httpd verbinding mag maken met een database
+sudo setsebool -P httpd_can_network_connect_db on
+
 # Restart apache
 sudo systemctl restart httpd
 
