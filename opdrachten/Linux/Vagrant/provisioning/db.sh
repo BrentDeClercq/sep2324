@@ -67,7 +67,9 @@ sudo firewall-cmd --reload
 # Connections
 if [ -f "${db_config_path}" ] && [ -r "${db_config_path}" ]; then
     
-    sudo sed -i "s/^bind-address\s*=.*$/bind-address = ${db_bind_address}/" /etc/my.cnf.d/mariadb-server.cnf
+    #sudo sed -i "s/^bind-address\s*=.*$/bind-address = ${db_bind_address}/" ${db_config_path}
+    
+    sudo sed -i "s/#\{0,1\}bind-address=.*/bind-address=${db_bind_address}/" ${db_config_path}
     
     sudo systemctl restart mariadb
     echo "Het bind-address in mariadb-server.cnf is gewijzigd naar ${db_bind_address}"
