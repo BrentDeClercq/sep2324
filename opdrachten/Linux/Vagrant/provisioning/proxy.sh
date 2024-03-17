@@ -36,6 +36,7 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
 # Network settings
 sudo ifconfig eth1 $IP_PROXY netmask $NETMASK_PROXY
+sudo systemctl restart NetworkManager
 
 log "Installing proxy"
 
