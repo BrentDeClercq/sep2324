@@ -49,7 +49,7 @@ sudo echo "server {
     server_name 'g06-tenurit.internal';
 
     location / {
-        proxy_pass 'http://192.168.106.250:80';
+        proxy_pass 'http://$IP_WEB:80';
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
@@ -84,7 +84,7 @@ sudo echo "server {
     # Other SSL configuration...
 
     location / {
-        proxy_pass http://192.168.106.250:80;
+        proxy_pass http://$IP_WEB:80;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
