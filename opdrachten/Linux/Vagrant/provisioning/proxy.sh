@@ -49,7 +49,7 @@ sudo echo "server {
     server_name 'g06-tenurit.internal';
 
     location / {
-        proxy_pass 'http://192.168.106.250:80';
+        proxy_pass http://$IP_WEB:80;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
@@ -75,6 +75,7 @@ sudo chown nginx:nginx /etc/nginx/ssl
 sudo setsebool -P httpd_can_network_connect on
 
 sudo echo "server {
+    listen 80;
     listen 443 ssl;
     server_name g06-tenurit.internal www.g06-tenurit.internal;
 
@@ -84,12 +85,17 @@ sudo echo "server {
     # Other SSL configuration...
 
     location / {
-        proxy_pass http://192.168.106.250:80;
+        proxy_pass http://$IP_WEB:80;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto \$scheme;
     }
 }" | sudo tee /etc/nginx/conf.d/g06-tenurit.conf > /dev/null
+
+# Firewall configuration
+sudo firewall-cmd --zone=public --add-service=http --permanent
+sudo firewall-cmd --zone=public --add-service=https --permanent
+sudo firewall-cmd --reload
 
 sudo systemctl restart nginx

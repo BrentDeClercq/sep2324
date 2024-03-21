@@ -96,11 +96,11 @@ interface FastEthernet0/24
  switchport access vlan 42
  switchport mode access
 !
-interface GigabitEthernet0/0/0
+interface GigabitEthernet0/0
  switchport trunk allowed vlan 1,11,13,42,99
  switchport mode trunk
 !
-interface GigabitEthernet0/0/1
+interface GigabitEthernet0/1
  switchport access vlan 99
  switchport trunk native vlan 99
 !
