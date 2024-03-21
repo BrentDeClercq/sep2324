@@ -62,17 +62,3 @@ Testprocedure:
 5. Er zou een gebruiker moeten zijn met naam 'tenurit', login met volgend commando `mysql -u tenurit -p` (zie vars voor wachtwoord)
 6. Test of de database beschikbaar is: `USE wp;`
 
-## Test: Root-login
-
-Testprocedure:
-
-1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
-2. Voer volgend commando uit: `vagrant up database`
-3. Ssh naar server: `vagrant ssh database`
-4. Probeer in te loggen als root in de database met volgend commando: `mysql -u root -p`
-
-Verwacht resultaat:
-
-- De access wordt denied voor de root user.
-
-<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
