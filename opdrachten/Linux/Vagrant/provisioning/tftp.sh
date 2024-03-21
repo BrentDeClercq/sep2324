@@ -74,3 +74,6 @@ sudo touch  /var/lib/tftpboot/file{1..3}.txt
 echo "Hello File 1" | sudo tee /var/lib/tftpboot/file1.txt
 echo "Hello File 2" | sudo tee /var/lib/tftpboot/file2.txt
 echo "Hello File 3" | sudo tee /var/lib/tftpboot/file3.txt
+
+sudo cp /vagrant/configs/tftp/* /var/lib/tftpboot/
+sudo systemctl restart tftp-server
