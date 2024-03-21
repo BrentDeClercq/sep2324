@@ -72,7 +72,13 @@ Commits
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Geprobeerd root-login via VM's uit te schakelen
+- Enkel login op VM's toestaan via SSH-keys
+
+Commits
+
+- [1619ecb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/1619ecb71702df4cb1ddae7095ee6230212cc58e)
+- [89d3327](https://github.com/HoGentTIN/sep2324-gent-g06/commit/89d3327657fc178cd46c3c3698c5fa23e52cda43)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -115,7 +121,8 @@ Commits
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Testrapport opstellen van het laatste deeltje configuratie van de Linux Servers
+- Nieuwe taken opnemen op het JIRA bord
 
 ### Rayane Yousti
 
