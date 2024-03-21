@@ -44,9 +44,13 @@
   https://www.bol.com/be/nl/p/pattex-power-tape-10-m-zwart-ducttape-ducktape-waterdicht-extreem-sterk-premium-grip-duct-duck-tape/9200000016498153/?bltgh=nGjsZF2K2ezCThbRTedMnQ.2_41.44.ProductImage  
   10,49 euro
 
-- Cat 6a S/FTP netwerkkabel rol  
-  https://www.allekabels.be/netwerk-kabel-per-rol/4581/1290054/cat-6a-sftp-netwerkkabel-per-rol.html?lang=nl-be  
-  261 euro
+- Cat 6 - U/UTP - Netwerkkabel - Patchkabel - Internetkabel - 10 Gbps - 15 METER - Zwart - Allteq
+  https://www.bol.com/nl/nl/p/cat-6-u-utp-netwerkkabel-patchkabel-internetkabel-10-gbps-15-meter-zwart-allteq/9300000007830289/?bltgh=uj5Xc2b-hcv1hi6xzeFMRg.2_13.15.ProductTitle
+100 x 18,49 = 1849,00 euro incl btw
+
+  - Cat 6 - U/UTP - Netwerkkabel - Patchkabel - Internetkabel - 10 Gbps - 2 METER - Zwart - Allteq
+    https://www.bol.com/nl/nl/p/cat-6-u-utp-netwerkkabel-patchkabel-internetkabel-10-gbps-2-meter-zwart-allteq/9300000007444837/?s2a=&bltgh=iGmiM-S-q1bC1qT-kX5DxQ.2_37_38.40.FeatureListItem#productTitle
+    100 x 15 = 1500 euro incl btw
 
 - krimptang voor connectoren  (NIET INBEGREPEN IN OFFERTE)
   https://www.netwerkkabel.eu/nl/krimptang-voor-doorsteek-rj45-rj11-en-rj12-connect.html  
@@ -77,6 +81,9 @@
 - Proximus internet superior + norton security solution (Deze nog upgraden)
   https://www.proximus.be/nl/id_enterprise-pack-together-composer-samenstellen/zelfstandigen-en-kleine-bedrijven/pack-internet-kmo-pme/enterprise-pack-together-voor-kmos/enterprise-pack-configurator.html
   € 1374,00 (€ 114,50 per maand)
+
+  -Teamtel IT ondersteuning (klantensupport, helpdesksupport 24/7) 
+  https://www.teamtel.be/it-ondersteuning/
 
 ## Werkuren
 
