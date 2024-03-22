@@ -77,3 +77,20 @@ tree
 log "Enabling essential services"
 
 systemctl enable --now firewalld.service
+
+
+#------------------------------------------------------------------------------
+# SSH
+#------------------------------------------------------------------------------
+
+# Enable ssh-login
+sudo sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+sudo sed -i 's/PubkeyAuthentication no/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+
+# Disable root-login
+sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
+
+sudo systemctl restart sshd
+
