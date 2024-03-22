@@ -1,0 +1,43 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  
+  # Define the box to use
+  config.vm.box = "gusztavvargadr/windows-server-core"
+  config.vm.box_version = "2102.0.2402"
+  
+  # Provider-specific configurations
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "4096"
+    vb.cpus = 2        
+  end
+
+  # Optionally, you can specify a hostname for your VM
+  config.vm.hostname = "windows-server"
+
+  # Enable bidirectional shared clipboard
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true
+
+  # Enable bidirectional drag'n'drop
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true, mount_options: ["dmode=777", "fmode=666"]
+
+  # Install VirtualBox Guest Additions
+  config.vm.provision "shell", inline: <<-SHELL
+    # Install VirtualBox Guest Additions
+    sudo apt-get update
+    sudo apt-get install -y virtualbox-guest-additions-iso
+    sudo mkdir -p /media/VirtualBoxGuestAdditions
+    sudo mount -o loop,ro /usr/share/virtualbox/VBoxGuestAdditions.iso /media/VirtualBoxGuestAdditions
+    sudo sh /media/VirtualBoxGuestAdditions/VBoxLinuxAdditions.run
+    sudo umount /media/VirtualBoxGuestAdditions
+    sudo rm -rf /media/VirtualBoxGuestAdditions /usr/share/virtualbox/VBoxGuestAdditions.iso
+  SHELL
+
+  # Configure NAT network adapter
+  config.vm.network "private_network", virtualbox__intnet: "TenurNAT"
+
+  # Configure bridged adapter
+  config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)", auto_config: true
+
+end
