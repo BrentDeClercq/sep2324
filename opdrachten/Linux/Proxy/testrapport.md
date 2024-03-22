@@ -1,26 +1,27 @@
 # Testrapport
 
-- Uitvoerder(s) test: <!-- Naam. -->
-- Uitgevoerd op: <!-- Datum. -->
-- Github commit: <!-- Git commit hash. -->
+- Uitvoerder(s) test: Brent De Clercq
+- Uitgevoerd op: 22/03/2024
+- Github commit: 0b10a34
 
-## Test: <!-- Omschrijving test. -->
+## Test: Installatie
 
 Test procedure:
 
-1. ...
-2. ...
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up proxy`
+3. ssh naar server: `vagrant ssh proxy`
+4. Check of de service draait: `sudo systemctl status nginx`
 
 Verkregen resultaat:
 
-- ...
-- ...
+- De nginx service is aan het runnen en is enabled
 
-<!-- Voeg hier eventueel een screenshot van het verkregen resultaat in. -->
+![nginx_installatie_rapport](./img/nginx_installatie_rapport.png)
 
 Test geslaagd:
 
-- [ ] Ja
+- [x] Ja
 - [ ] Nee
 
 Opmerkingen:
