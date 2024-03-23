@@ -17,17 +17,19 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
-## Test: <!-- Omschrijving test. -->
+## Test: Certificaat
 
 Testprocedure:
 
-1. ...
-2. ...
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up proxy db web client`
+3. ssh naar server: `vagrant ssh proxy`
+4. surf naar http://g06-tenurit.internal vanop client
+5. surf naar https://g06-tenurit.internal vanop client 
 
 Verwacht resultaat:
 
-- ...
-- ...
+- beide zouden een wordpress pagina moeten geven
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
