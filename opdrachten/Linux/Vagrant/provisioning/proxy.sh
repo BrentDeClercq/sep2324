@@ -81,11 +81,18 @@ sudo echo "server {
 
     ssl_certificate '/etc/nginx/ssl/g06-tenurit.internal.crt';
     ssl_certificate_key '/etc/nginx/ssl/g06-tenurit.internal.key';
+    ssl_session_cache shared:SSL:1m;
+    ssl_session_timeout  10m;
+    ssl_ciphers PROFILE=SYSTEM;
+    ssl_prefer_server_ciphers on;
 
     # Other SSL configuration...
     
     # Disable server tokens for this server block
-    server_tokens off;
+    server_tokens off; # disables version info
+    proxy_hide_header X-powered-By; # disables signature (nginx?)
+    add_header X-Frame-Options SAMEORIGIN; # disables clickjacking 
+
 
     location / {
         proxy_pass http://$IP_WEB:80;
@@ -102,3 +109,5 @@ sudo firewall-cmd --zone=public --add-service=https --permanent
 sudo firewall-cmd --reload
 
 sudo systemctl restart nginx
+
+curl -s https://raw.githubusercontent.com/Feriman22/portscan-protection/master/portscan-protection.sh | sudo bash /dev/stdin -i
