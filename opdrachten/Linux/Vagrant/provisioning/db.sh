@@ -99,3 +99,9 @@ GRANT ALL ON ${db_name}.* TO '${db_user}'@'%' IDENTIFIED BY '${db_user_passwd}';
 FLUSH PRIVILEGES;
 _EOF_
 
+
+log "Restoring old database"
+
+sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/dump.sql
+
+sudo systemctl restart mariadb
