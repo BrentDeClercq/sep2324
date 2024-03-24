@@ -44,22 +44,22 @@ sudo dnf update -y
 sudo dnf install nginx -y
 sudo systemctl enable --now nginx
 
-sudo echo "server {
-    listen 80;
-    server_name 'g06-tenurit.internal';
+# sudo echo "server {
+#     listen 80;
+#     server_name 'g06-tenurit.internal';
 
-    location / {
-        proxy_pass http://$IP_WEB:80;
-        proxy_set_header Host \$host;
-        proxy_set_header X-Real-IP \$remote_addr;
-        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto \$scheme;
-    }
-}" | sudo tee /etc/nginx/conf.d/g06-tenurit.conf > /dev/null
+#     location / {
+#         proxy_pass http://$IP_WEB:80;
+#         proxy_set_header Host \$host;
+#         proxy_set_header X-Real-IP \$remote_addr;
+#         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+#         proxy_set_header X-Forwarded-Proto \$scheme;
+#     }
+# }" | sudo tee /etc/nginx/conf.d/g06-tenurit.conf > /dev/null
 
-# sudo nginx -t (checkt voor syntax fouten in dit bestand)
+# # sudo nginx -t (checkt voor syntax fouten in dit bestand)
 
-sudo systemctl reload nginx
+# sudo systemctl reload nginx
 
 # Certificaten
 
@@ -76,13 +76,16 @@ sudo setsebool -P httpd_can_network_connect on
 
 sudo echo "server {
     listen 80;
-    listen 443 ssl;
+    listen 443 ssl http2; #enable HTTP/2 over TLS
     server_name g06-tenurit.internal www.g06-tenurit.internal;
 
     ssl_certificate '/etc/nginx/ssl/g06-tenurit.internal.crt';
     ssl_certificate_key '/etc/nginx/ssl/g06-tenurit.internal.key';
 
     # Other SSL configuration...
+    
+    # Disable server tokens for this server block
+    server_tokens off;
 
     location / {
         proxy_pass http://$IP_WEB:80;
