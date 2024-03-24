@@ -47,6 +47,7 @@ sudo systemctl enable --now httpd
 
 log "Allow http in firewall"
 sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --add-service=https --permanent
 sudo firewall-cmd --reload
 
 

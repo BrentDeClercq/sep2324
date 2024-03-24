@@ -61,3 +61,4 @@ Testprocedure:
 4. ssh naar server: `vagrant ssh db`
 5. Er zou een gebruiker moeten zijn met naam 'tenurit', login met volgend commando `mysql -u tenurit -p` (zie vars voor wachtwoord)
 6. Test of de database beschikbaar is: `USE wp;`
+

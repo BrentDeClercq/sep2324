@@ -1,0 +1,31 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/windows-10"
+  config.vm.box_version = "2202.0.2402"
+
+  # Provider-specific configurations
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 1
+  end
+
+  # Enable bidirectional shared clipboard
+
+  config.vm.hostname = "TenurITServer"
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true
+
+  # Enable bidirectional drag'n'drop
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true, mount_options: ["dmode=777", "fmode=666"]
+
+  # Configure NAT network adapter
+  config.vm.network "private_network", virtualbox__intnet: "TenurNAT"
+
+  # Configure bridged adapter
+  config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)", auto_config: true
+
+  # Configure Brussels time zone
+  config.vm.provision "shell", inline: "timedatectl set-timezone Europe/Brussels"
+
+  # Configure Dutch Belgian keyboard layout
+  config.vm.provision "shell", inline: "localectl set-keymap be-latin1"
+
+end
