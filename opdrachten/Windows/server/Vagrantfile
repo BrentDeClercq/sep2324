@@ -1,6 +1,3 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
-
 Vagrant.configure("2") do |config|
   
   # Define the box to use
@@ -13,8 +10,8 @@ Vagrant.configure("2") do |config|
     vb.cpus = 2        
   end
 
-  # Optionally, you can specify a hostname for your VM
-  config.vm.hostname = "windows-server"
+  # Specify the hostname for your VM
+  config.vm.hostname = "TenurITServer"
 
   # Enable bidirectional shared clipboard
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true
@@ -29,3 +26,4 @@ Vagrant.configure("2") do |config|
   config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)", auto_config: true
 
 end
+
