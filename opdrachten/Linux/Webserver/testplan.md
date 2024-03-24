@@ -48,10 +48,21 @@ Verwacht resultaat:
 Testprocedure:
 
 1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
-2. Voer volgend commando uit: `vagrant up web`
-3. ssh naar server: `vagrant ssh web db`
+2. Voer volgend commando uit: `vagrant up db web`
+3. ssh naar server: `vagrant ssh web`
 4. surf naar het ip address
 5. je zal onderstaand scherm zien, hier moet je zelf nog dingen invullen
 6. nu kan je inloggen en een post aanmaken
 
 ![wp_install](./img/wp_install.png)
+
+## Test: Automatische setup site
+
+Testprocedure:
+
+1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
+2. Voer volgend commando uit: `vagrant up db web proxy`
+3. Surf naar het ip van de webserver of proxy of naar [TenurIT](http://g06-tenurit.internal)
+4. Het zal even duren vooraleer de site zichtbaar is, dit is normaal
+5. Na de eerste keer lang te wachten, zou de site nu telkens direct moeten laden.
+6. Nu kan je een post maken door in te loggen op [wp-admin](http://g06-tenurit.internal/wp-admin)
