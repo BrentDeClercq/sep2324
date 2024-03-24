@@ -25,15 +25,26 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
+![alt text](./img/Screenshot 1.png)
+![alt text](./img/Screenshot 2.png)
+![alt text](./img/Screenshot 3.png)
+![alt text](./img/Screenshot 4.png)
+![alt text](./img/Screenshot 5.png)
+![alt text](./img/Screenshot 6.png)
+![alt text](./img/Screenshot 7.png)
+![alt text](./img/Screenshot 8.png)
+
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+![alt text](./img/jira.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
-
+![alt text](./img/diagram.png)
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+![alt text](./img/cumulatief.png)
 
 ### Brent De Clercq
 
@@ -42,6 +53,8 @@
 - User en database toegevoegd aan MariaDB
 - Ik heb ervoor gezorgd dat de CMS kan communiceren met de database
 - Testrapport voor bind-address MariaDB opgesteld
+
+![alt text](./img/brent.png)
 
 Commits
 
@@ -56,6 +69,8 @@ Commits
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
+![alt text](./img/kenji.png)
+
 - ...
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
@@ -63,6 +78,8 @@ Commits
 ### Nobel Fiers
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
+
+![alt text](./img/nobel.png)
 
 - ...
 
@@ -72,6 +89,8 @@ Commits
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
+![alt text](./img/julie.png)
+
 - ...
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
@@ -79,6 +98,8 @@ Commits
 ### Rayane Yousti
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
+
+![alt text](./img/rayane.png)
 
 - ...
 
