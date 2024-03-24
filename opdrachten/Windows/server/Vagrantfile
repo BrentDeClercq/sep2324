@@ -4,13 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "gusztavvargadr/windows-server-core"
   config.vm.box_version = "2102.0.2402"
   
-  # Provider-specific configurations
-  config.vm.provider "virtualbox" do |vb|
-    vb.memory = "4096"
-    vb.cpus = 2        
-  end
-
-  # Specify the hostname for your VM
+ # Specify the hostname for your VM
   config.vm.hostname = "TenurITServer"
 
   # Enable bidirectional shared clipboard
@@ -18,6 +12,13 @@ Vagrant.configure("2") do |config|
 
   # Enable bidirectional drag'n'drop
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox", shared: true, mount_options: ["dmode=777", "fmode=666"]
+
+
+  # Provider-specific configurations
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "4096"
+    vb.cpus = 2        
+  end
 
   # Configure NAT network adapter
   config.vm.network "private_network", virtualbox__intnet: "TenurNAT"
@@ -31,4 +32,3 @@ Vagrant.configure("2") do |config|
   # Configure Dutch Belgian keyboard layout
   config.vm.provision "shell", inline: "localectl set-keymap be-latin1"
 end
-
