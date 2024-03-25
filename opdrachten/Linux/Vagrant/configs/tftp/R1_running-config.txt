@@ -1,28 +1,6 @@
 !
-no service timestamps log datetime msec
-no service timestamps debug datetime msec
-no service password-encryption
 !
 hostname R1
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-license udi pid CISCO1941/K9 sn FTX1524OSRP-
-!
-!
-!
-!
-!
-!
 !
 !
 !
@@ -30,7 +8,6 @@ no ip domain lookup
 !
 !
 spanning-tree mode pvst
-!
 !
 !
 !
@@ -58,22 +35,9 @@ interface GigabitEthernet0/0/0.42
 interface GigabitEthernet0/0/1
  no ip address
 !
-!
-ip classless
-!
+ip route 0.0.0.0 0.0.0.0 192.168.106.254 
 !
 !
-!
-!
-!
-!
-!
-line con 0
-!
-line aux 0
-!
-line vty 0 4
- login
 !
 !
 !
