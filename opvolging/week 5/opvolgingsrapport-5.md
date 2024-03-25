@@ -25,15 +25,26 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
+![alt text](./img/Screenshot 1.png)
+![alt text](./img/Screenshot 2.png)
+![alt text](./img/Screenshot 3.png)
+![alt text](./img/Screenshot 4.png)
+![alt text](./img/Screenshot 5.png)
+![alt text](./img/Screenshot 6.png)
+![alt text](./img/Screenshot 7.png)
+![alt text](./img/Screenshot 8.png)
+
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+![alt text](./img/jira.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
-
+![alt text](./img/diagram.png)
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+![alt text](./img/cumulatief.png)
 
 ### Brent De Clercq
 
@@ -42,6 +53,8 @@
 - User en database toegevoegd aan MariaDB
 - Ik heb ervoor gezorgd dat de CMS kan communiceren met de database
 - Testrapport voor bind-address MariaDB opgesteld
+
+![alt text](./img/brent.png)
 
 Commits
 
@@ -56,6 +69,8 @@ Commits
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
+![alt text](./img/kenji.png)
+
 - ...
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
@@ -63,6 +78,8 @@ Commits
 ### Nobel Fiers
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
+
+![alt text](./img/nobel.png)
 
 - ...
 
@@ -75,16 +92,21 @@ Commits
 - Geprobeerd root-login via VM's uit te schakelen
 - Enkel login op VM's toestaan via SSH-keys
 
+![alt text](./img/julie.png)
+
 Commits
 
 - [1619ecb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/1619ecb71702df4cb1ddae7095ee6230212cc58e)
 - [89d3327](https://github.com/HoGentTIN/sep2324-gent-g06/commit/89d3327657fc178cd46c3c3698c5fa23e52cda43)
+
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ### Rayane Yousti
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
+
+![alt text](./img/rayane.png)
 
 - ...
 
