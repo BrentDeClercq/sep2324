@@ -110,4 +110,25 @@ sudo firewall-cmd --reload
 
 sudo systemctl restart nginx
 
-curl -s https://raw.githubusercontent.com/Feriman22/portscan-protection/master/portscan-protection.sh | sudo bash /dev/stdin -i
+# Download the script from the GitHub repository
+
+folder="/vagrant/configs/proxy"
+
+curl -s https://raw.githubusercontent.com/Feriman22/portscan-protection/master/portscan-protection.sh -o $folder/portscan-protection.sh
+
+# Check if the download was successful
+if [ $? -eq 0 ]; then
+    echo "Script downloaded successfully."
+    
+    # Make the necessary changes in the script
+    sed -i 's|WHITELISTLOCATION="/usr/local/sbin/portscan-protection-white.list"|WHITELISTLOCATION="/vagrant/configs/proxy/portscan-protection-white.list"|g' $folder/portscan-protection.sh
+    sed -i 's|SCRIPTLOCATION="/usr/local/sbin/portscan-protection.sh"|SCRIPTLOCATION="/vagrant/configs/proxy/portscan-protection.sh"|g' $folder/portscan-protection.sh
+    echo "Script modified."
+
+    # Execute the modified script with sudo privileges
+    sudo bash $folder/portscan-protection.sh -i
+else
+    echo "Failed to download the script."
+    exit 1
+fi
+
