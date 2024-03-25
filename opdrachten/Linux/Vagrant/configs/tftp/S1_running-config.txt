@@ -1,7 +1,4 @@
 !
-no service timestamps log datetime msec
-no service timestamps debug datetime msec
-no service password-encryption
 !
 hostname S1
 !
@@ -9,19 +6,6 @@ hostname S1
 !
 no ip domain lookup
 !
-!
-!
-interface FastEthernet0/1
-!
-interface FastEthernet0/2
-!
-interface FastEthernet0/3
-!
-interface FastEthernet0/4
-!
-interface FastEthernet0/5
-!
-interface FastEthernet0/6
 !
 interface FastEthernet0/7
  switchport access vlan 11
@@ -103,19 +87,14 @@ interface GigabitEthernet0/2
  switchport access vlan 99
  switchport trunk native vlan 99
 !
+vlan 11
+ name Clients
 !
+vlan 13
+ name DMZ
 !
-!
-!
-line con 0
-!
-line vty 0 4
- login
-line vty 5 15
- login
-!
-!
-!
+vlan 42
+ name Servers
 !
 end
 
