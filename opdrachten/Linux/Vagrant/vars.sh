@@ -2,24 +2,24 @@
 # Network settings SEP
 #---------------------------------------------------------
 
-# # Database
-# IP_DATABASE="192.168.106.243"
-# NETMASK_DATABASE="255.255.255.248"
+# Database
+IP_DATABASE="192.168.106.243"
+NETMASK_DATABASE="255.255.255.248"
 
-# # Web
-# IP_WEB="192.168.106.244"
-# NETMASK_WEB="255.255.255.248"
+# Web
+IP_WEB="192.168.106.244"
+NETMASK_WEB="255.255.255.248"
 
-# # TFTP
-# IP_TFTP="192.168.106.234"
-# NETMASK_TFTP="255.255.255.248"
+# TFTP
+IP_TFTP="192.168.106.234"
+NETMASK_TFTP="255.255.255.248"
 
-# # TFTP - test
-# IP_TFTP_TEST="192.168.106.235"
+# TFTP - test
+IP_TFTP_TEST="192.168.106.235"
 
-# # Proxy
-# IP_PROXY="192.168.106.250"
-# NETMASK_PROXY="255.255.255.252"
+# Proxy
+IP_PROXY="192.168.106.250"
+NETMASK_PROXY="255.255.255.252"
 
 #---------------------------------------------------------
 # Network settings Brent
@@ -41,17 +41,17 @@
 # Network settings Kenji
 #---------------------------------------------------------
 
-# Database
-IP_DATABASE="192.168.0.147"
-NETMASK_DATABASE="255.255.255.0"
+# # Database
+# IP_DATABASE="192.168.0.147"
+# NETMASK_DATABASE="255.255.255.0"
 
-# Web
-IP_WEB="192.168.0.155"
-NETMASK_WEB="255.255.255.0"
+# # Web
+# IP_WEB="192.168.0.155"
+# NETMASK_WEB="255.255.255.0"
 
-# Proxy
-IP_PROXY="192.168.0.105"
-NETMASK_PROXY="255.255.255.0"
+# # Proxy
+# IP_PROXY="192.168.0.105"
+# NETMASK_PROXY="255.255.255.0"
 
 #---------------------------------------------------------
 # Database
