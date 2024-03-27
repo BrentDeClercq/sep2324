@@ -25,25 +25,29 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
-![alt text](./img/Kanban  1.png)
-![alt text](./img/Kanban  2.png)
-![alt text](./img/Kanban  3.png)
-![alt text](./img/Kanban  4.png)
-![alt text](./img/Kanban  5.png)
-![alt text](./img/Kanban  6.png)
-![alt text](./img/Kanban  7.png)
-![alt text](./img/Kanban  8.png)
+![alt text](./img/Kanban 1.png)
+![alt text](./img/Kanban 2.png)
+![alt text](./img/Kanban 3.png)
+![alt text](./img/Kanban 4.png)
+![alt text](./img/Kanban 5.png)
+![alt text](./img/Kanban 6.png)
+![alt text](./img/Kanban 7.png)
+![alt text](./img/Kanban 8.png)
 
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+
 ![alt text](./img/jira.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
+
 ![alt text](./img/diagram.png)
+
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+
 ![alt text](./img/cumulatief.png)
 
 ### Brent De Clercq
@@ -85,9 +89,12 @@ Commits
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Packet tracer bestanden overgebracht naar de tftp en opgekuist.
 
 ![alt text](./img/nobel.png)
+
+- [fde6c4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/fde6c41136637a66f63285a866692667e08f7d96)
+
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ### Julie De Witte
@@ -104,7 +111,6 @@ Commits
 - [1619ecb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/1619ecb71702df4cb1ddae7095ee6230212cc58e)
 - [89d3327](https://github.com/HoGentTIN/sep2324-gent-g06/commit/89d3327657fc178cd46c3c3698c5fa23e52cda43)
 
-
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ### Rayane Yousti
@@ -114,6 +120,7 @@ Commits
 - ...
 
 ![alt text](./img/rayane.png)
+
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ## Wat plan je volgende periode te doen?
@@ -122,8 +129,8 @@ Commits
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
-- ...
+- TFTP werkende krijgen
+- Windows verder uitwerken
 
 ### Brent De Clercq
 
@@ -141,7 +148,7 @@ Commits
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- tftp server bestanden verder uittesten.
 
 ### Julie De Witte
 

@@ -24,18 +24,25 @@
 #### KanBan
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
+
 ![alt text](./img/Kanban.png)
 
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+
 ![alt text](./img/jira.png)
+
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
+
 ![alt text](./img/diagram.png)
+
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+
 ![alt text](./img/diagramCummulatief.png)
+
 ### Brent De Clercq
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
@@ -48,7 +55,7 @@
 - [9c079e1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9c079e1c96cd1a33e3a92e2f9656894abbd078b6)
 - [68dc1bb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/68dc1bba25635a038d4fe8e9af348fef3a1e1bdc)
 - [7295b6f](https://github.com/HoGentTIN/sep2324-gent-g06/commit/7295b6f3abb826c75dd88652c946bae937cb2463)
-- [0f80a54]https://github.com/HoGentTIN/sep2324-gent-g06/commit/0f80a54bf458e7b3cb942eb995156638aa7852bd)
+- [0f80a54](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0f80a54bf458e7b3cb942eb995156638aa7852bd)
 - [02592b2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/02592b2be3412c77b9ba8a85088575dab2b58640)
 - [2d68ad0](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2d68ad0b72dc79c14f47af954baba85691c1288b)
 - [4749555](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4749555f0abf96acdb0bf93c587651c725511e80)
@@ -79,9 +86,14 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- problemen met packet tracer proberen oplossen en vermijden
+- meegeholpen bij algemene groepsproblemen
+
 ![alt text](./img/Nobel.png)
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+
+  <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+
+- geen commit aangezien het meeste oftewel nog op een pc staat of een fysieke opstelling was.
 
 ### Julie De Witte
 
