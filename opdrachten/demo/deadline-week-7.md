@@ -3,7 +3,7 @@
 ## Opzetten
 
 Netwerkschema:
-![Netwerkschema](./img/netwerkschema.png)
+![Netwerkschema](./img/netwerkschema.jpg)
 
 ### Algemeen
 
@@ -63,22 +63,23 @@ Overzicht van alle taken die iedereen uitvoert, en helpen waar nodig
 
 ### Julie
 
-- [ ] Windows Client opstarten
-- [ ] In windows client inloggen op server via ad
-- [ ] Kijken of RSAT-tools geïnstalleerd zijn
-
-### Rayane
-
 - [ ] Windows server opstarten
 - [ ] Check of AD werkt
 - [ ] DNS
 - [ ] Shared Folder
 - [ ] Group Policies controleren
 
+### Rayane
+
+- [ ] Windows Client opstarten
+- [ ] In windows client inloggen op server via ad
+- [ ] Kijken of RSAT-tools geïnstalleerd zijn
+
 ## Belangrijke commando's
 
 - `sudo cat /var/log/httpd/wordpress_access.log`
 - `sudo cat /var/log/nginx/access.log`
+- `sestatus`
 
 ## Tests
 
@@ -96,9 +97,15 @@ Overzicht van alle taken die iedereen uitvoert, en helpen waar nodig
 1. Log in op AD
    1. Indien dit faalt, test of de client zeker toegang heeft tot de server
    2. eventueel inloggen op lokale gebruiker en pingen naar de server
-2. Probeer te surfen naar de site: `g06-tenurit.internal`
-3. Hierdoor wordt proxy en dns getest, probeer ook: `www.g06-tenurit.internal`
+2. Probeer te surfen naar de site: `http://www.g06-tenurit.internal en http://g06-tenurit.internal`
+3. Hierdoor wordt proxy en dns getest, probeer ook: `https://www.g06-tenurit.internal en https://g06-tenurit.internal`
 4. Bij problemen:
    1. Check of DNS aan staat: `nslookup google.com of hogent.be`
    2. Check of DNS naar onze site werkt: `nslookup g06-tenurit.internal`
    3. Check of proxy bereikbaar is: `ping 192.168.106.250`
+
+## Post aanmaken 
+
+`http://g06-tenurit.internal/wp-admin`
+- username: tenurit
+- password: RJ5@kbIL60Hv@1Je9v
