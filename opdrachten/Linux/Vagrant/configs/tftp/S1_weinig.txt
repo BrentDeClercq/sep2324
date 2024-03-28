@@ -11,12 +11,16 @@ vlan 13
 vlan 42
  name Servers
 !
+vlan 99
+ name parking
 !
 interface FastEthernet0/1
  switchport mode access
 !
 interface FastEthernet0/2
  switchport mode access
+ switchport access vlan 99
+ sh
 !
 interface FastEthernet0/3
  switchport mode access
@@ -32,85 +36,106 @@ interface FastEthernet0/5
 !
 interface FastEthernet0/6
  switchport mode access
- switchport access vlan 42
+ switchport access vlan 99
+ sh
 !
 interface FastEthernet0/7
- switchport access vlan 42
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/8
  switchport access vlan 11
  switchport mode access
 !
 interface FastEthernet0/9
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/10
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/11
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/12
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/13
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/14
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/15
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/16
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/17
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/18
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/19
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/20
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/21
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/22
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/23
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 interface FastEthernet0/24
- switchport access vlan 11
+ switchport access vlan 99
  switchport mode access
+ sh
 !
 !
-interface GigabitEthernet0/1
+interface GigabitEthernet0/2
  switchport trunk native vlan 11
  switchport trunk allowed vlan 1,11,13,42
  switchport mode trunk
+!
+interface GigabitEthernet0/1
+ switchport access vlan 99
 !
 end
 
