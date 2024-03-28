@@ -1,5 +1,5 @@
 ﻿# Nagaan of RSAT reeds geïnstalleerd is:
-	
+
 Set-ExecutionPolicy RemoteSigned
 
 #$installedFeatures = Get-WindowsCapability -Online | Where-Object { $_.Name -like 'Rsat*' -and $_.State -eq 'NotPresent' }
@@ -19,4 +19,3 @@ else {
 }
 
 pause
-
