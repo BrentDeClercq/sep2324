@@ -103,9 +103,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # host name, this will fail.
         vb.customize ['modifyvm', :id, '--groups', PROJECT_NAME]
       end
+
             
       # Run configuration script for the VM
       node.vm.provision 'shell', path: 'provisioning/' + host['name'] + '.sh'
+    end
+
+    config.vm.provider "vmware_workstation" do |v|
+      v.gui = true
     end
   end
 end
