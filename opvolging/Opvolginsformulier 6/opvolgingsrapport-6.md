@@ -117,26 +117,26 @@
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
-- ...
+- Commentaar van vorige evaluatie integreren en offerte samen met netwerkplan ook afwerken
 
 ### Brent De Clercq
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Nextcloud
 
 ### Kenji De Coster
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- CA bekijken om ons certificaat zelf te authenticeren
 
 ### Nobel Fiers
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- resterende problemen van de opstelling oplossen
+- Assisteren bij uitbreidingen
 
 ### Julie De Witte
 
