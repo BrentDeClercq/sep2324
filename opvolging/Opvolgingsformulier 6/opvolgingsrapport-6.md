@@ -119,10 +119,10 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
--IP's nog last minute in orde krijgen
--GPO's manueel
--Shares rechten manueel
--Feeback week 7 noteren
+- IP's nog last minute in orde krijgen
+- GPO's manueel
+- Shares rechten manueel
+- Feeback week 7 noteren
 
 ![alt text](./img/Rayane.png)
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
