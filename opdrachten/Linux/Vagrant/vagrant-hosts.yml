@@ -63,15 +63,6 @@
 #  virtualbox__intnet: true
 #  intnet: true
 
-- name: tftp-test
-  box: bento/almalinux-9
-  networks:
-    - type: "public_network"
-      bridge: "Wi-Fi"
-#    - type: "private_network"
-#  virtualbox__intnet: true
-#  intnet: true
-
 - name: db
   box: bento/almalinux-9
 
