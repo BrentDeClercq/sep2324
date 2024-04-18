@@ -5,3 +5,6 @@
     -ForestMode "WinThreshold" `
     -InstallDNS:$true `
     -NoRebootOnCompletion:$false `
+
+Install-WindowsFeature -Name DNS -IncludeManagementTools
+
