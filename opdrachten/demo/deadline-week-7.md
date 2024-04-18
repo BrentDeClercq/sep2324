@@ -19,7 +19,7 @@ Netwerkschema:
    1. Open Virtualbox
    2. Open VM settings
    3. Controleer of bridged op de juiste adaptor staat: 'REALTEK ...'
-3. Router instellen
+3. Router instellen (switch instellen tot stap 5 eerst!)
    1. activeer de router via `enable` en dan `config t`
    2. navigeer naar de interface via `interface g0/0/0`
    3. stel ip address in: `ip-address 192.168.106.233 255.255.255.248`
@@ -27,9 +27,11 @@ Netwerkschema:
    5. keer terug naar router# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
    6. nodige gegevens:
       address remote host: `192.168.106.234`
-      source filename: `R1_running-config.txt`
+      source filename: `r1final.txt`
       destination filename: `running-config`
-   7. Controleer via `do show running-config`
+   7. Controleer via `show running-config`
+   8. Controleer via `show ip interface brief`
+   9. indien 8. aantoonde dat g0/0/0.1 zijn ip-address niet heeft -> `conf t` -> `interface g0/0/0.1` -> `ip address 192.168.106.233 255.255.255.248`.
 4. Switch instellen
    1. activeer de switch via `enable` en dan `config t`
    2. vlans leegmaken: `delete flash:vlan.dat`
@@ -39,7 +41,7 @@ Netwerkschema:
    6. keer terug naar switch# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
    7. nodige gegevens:
       address remote host: `192.168.106.234`
-      source filename: `S1_running-config.txt`
+      source filename: `s1final-confg`
       destination filename: `running-config`
 5. Ping testen
    1. Ping van router naar ISP: `do ping 192.168.106.254`
@@ -104,8 +106,9 @@ Overzicht van alle taken die iedereen uitvoert, en helpen waar nodig
    2. Check of DNS naar onze site werkt: `nslookup g06-tenurit.internal`
    3. Check of proxy bereikbaar is: `ping 192.168.106.250`
 
-## Post aanmaken 
+## Post aanmaken
 
 `http://g06-tenurit.internal/wp-admin`
+
 - username: tenurit
 - password: RJ5@kbIL60Hv@1Je9v
