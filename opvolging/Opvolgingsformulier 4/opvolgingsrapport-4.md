@@ -126,12 +126,14 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Offerte volledig afwerken
+- PowerPoint presentatie afwerken
 
 ![alt text](./img/timesheet3_rayane.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
+[5aca73](https://github.com/HoGentTIN/sep2324-gent-g06/pull/35/commits/5aca73382efcf851edee89f28931a24294c46f9c)
 ## Wat plan je volgende periode te doen?
 
 ### Algemeen
@@ -171,7 +173,8 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Eventuele offerte problemen oplossen
+- Beginnen opzoekwerk voor automatisatie windows 
 
 ## Retrospectieve
 
