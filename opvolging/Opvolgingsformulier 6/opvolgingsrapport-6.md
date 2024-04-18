@@ -99,9 +99,21 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- geautomatiseerde powershell-scripts schrijven om windows VM's te installeren
+- ps script geschreven om RSAT tools te downloaden
+- ps script geschreven om windows server te promoveren tot domeincontroller
+- ps script geschreven om organizational units aan te maken binnen active directory
+
 ![alt text](./img/Julie.png)
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+
+- [d704c9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/d704c9f44c84054165c2ff6edc85fa2d9421c97d)
+- [0032a6](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0032a6e5c7a0f17b25b81e90b7586263cd9f69f4)
+- [671cb1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/671cb1e71c83b173b84a32b9cf3323ac7d5c28f1)
+- [253ccf](https://github.com/HoGentTIN/sep2324-gent-g06/commit/253ccffd3d56e9e83e989e8812caf3ac526c3c02)
+- [ddde9e](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ddde9e4d2e301cf0213f480cecf4f6eaa351e92e)
+- [5e74a8](https://github.com/HoGentTIN/sep2324-gent-g06/commit/5e74a8221b7683a90ae4b057e659f14a276d0ba5)
+- [e3ed23](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e3ed237ca3289698c3b4650e6dff71090191e0e1)
 
 ### Rayane Yousti
 
