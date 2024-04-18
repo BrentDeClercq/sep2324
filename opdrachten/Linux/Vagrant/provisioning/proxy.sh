@@ -38,6 +38,9 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 sudo ifconfig eth1 $IP_PROXY netmask $NETMASK_PROXY
 sudo systemctl restart NetworkManager
 
+sudo ip route del default
+sudo ip route add default via 192.168.106.249 dev eth1
+
 log "Installing proxy"
 
 sudo dnf update -y

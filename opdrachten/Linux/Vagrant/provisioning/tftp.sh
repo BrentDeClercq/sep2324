@@ -37,6 +37,9 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 sudo ifconfig eth1 ${IP_TFTP} netmask ${NETMASK_TFTP}
 sudo systemctl restart NetworkManager
 
+sudo ip route del default
+sudo ip route add default via 192.168.106.233 dev eth1
+
 log "Installing tftp-server and tftp"
 
 sudo dnf install -y tftp-server tftp

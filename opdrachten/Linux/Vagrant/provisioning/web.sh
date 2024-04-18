@@ -38,6 +38,9 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 sudo ifconfig eth1 $IP_WEB netmask $NETMASK_WEB
 sudo systemctl restart NetworkManager
 
+sudo ip route del default
+sudo ip route add default via 192.168.106.241 dev eth1
+
 log "Installing Apache"
 sudo dnf update -y
 sudo dnf install httpd -y
