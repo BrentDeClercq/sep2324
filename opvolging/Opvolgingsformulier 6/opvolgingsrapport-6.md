@@ -3,8 +3,8 @@
 ## Algemeen
 
 - Groep: G06
-- Periode: tot 21/03/2024 tot 27/03/2024
-- Datum voortgangsgesprek: 28/03/2024
+- Periode: tot 21/03/2024 tot 18/04/2024
+- Datum voortgangsgesprek: 18/04/2024
 
 | Student         | Afw. | Opmerking |
 | :-------------- | :--: | :-------- |
