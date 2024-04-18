@@ -116,13 +116,18 @@ Commits
 ### Rayane Yousti
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
-
-- ...
+- Users & groups script aangemaakt
+- Server manueel nog configureren
+- Client manueel configureren
+- RSAT-tools installatie
+  
 
 ![alt text](./img/rayane.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
-
+- [00c386](https://github.com/HoGentTIN/sep2324-gent-g06/commit/00c3865fbebc3e782856f12e12240729693c8007)
+- [9341ba](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9341ba2eb5bac98a5b7c516f0fc8591e916882d5)
+  
 ## Wat plan je volgende periode te doen?
 
 ### Algemeen
@@ -160,8 +165,11 @@ Commits
 ### Rayane Yousti
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
+- GPO's nog afmaken
+- Shares afwerken
+- DHCP te fixen
+- DNS forward lookup regelen
 
-- ...
 
 ## Retrospectieve
 
