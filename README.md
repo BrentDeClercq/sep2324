@@ -61,10 +61,11 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 
 - Opvolging
 
-  - [Week 2](./opvolging/week%202/opvolgingsrapport-2.md)
-  - [Week 3](./opvolging/week%203/opvolgingsrapport-3.md)
-  - [Week 4](./opvolging/week%204/opvolgingsrapport-4.md)
-  - [Week 5](./opvolging/week%205/opvolgingsrapport-5.md)
+  - [Week 2](./opvolging/Opvolgingsformulier%202/opvolgingsrapport-2.md)
+  - [Week 3](./opvolging/Opvolgingsformulier%203/opvolgingsrapport-3.md)
+  - [Week 4](./opvolging/Opvolgingsformulier%204/opvolgingsrapport-4.md)
+  - [Week 5](./opvolging/Opvolgingsformulier%205/opvolgingsrapport-5.md)
+  - [Week 6](./opvolging/Opvolgingsformulier%206/opvolgingsrapport-6.md)
 
 - Opdrachten
 
