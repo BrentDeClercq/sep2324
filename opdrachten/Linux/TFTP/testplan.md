@@ -25,39 +25,48 @@ Verwacht resultaat:
 ## Test: tftp configurations binnenhalen vanop router
 
 Testprocedure:
+Router instellen (switch instellen tot stap 5 eerst!)
 
-1. activeer de router via `enable` en dan `config t`
-2. navigeer naar de interface via `interface g0/0/0`
-3. stel ip address in: `ip-address 192.168.106.233 255.255.255.248`
-4. keer terug naar config t via `exit` en shcrijf `ip tftp source-interface gig0/0/0`
-5. keer terug naar router# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
-6. nodige gegevens:
-   address remote host: `192.168.106.234`
-   source filename: `R1_running-config.txt`
-   destination filename: `running-config`
+1.  activeer de router via `enable` en dan `config t`
+2.  navigeer naar de interface via `interface g0/0/0`
+3.  stel ip address in: `ip-address 192.168.106.233 255.255.255.248`
+4.  keer terug naar config t via `exit` en shcrijf `ip tftp source-interface gig0/0/0`
+5.  keer terug naar router# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
+6.  nodige gegevens:
+    address remote host: `192.168.106.234`
+    source filename: `r1final.txt`
+    destination filename: `running-config`
+7.  Controleer via `show running-config`
+8.  Controleer via `show ip interface brief`
+9.  indien 8. aantoonde dat g0/0/0.1 zijn ip-address niet heeft -> `conf t` -> `interface g0/0/0.1` -> `ip address 192.168.106.233 255.255.255.248`.
 
-   Verwacht resultaat:
+Verwacht resultaat:
 
-- router ontvangt de configuration en werkt met de ingestelde configuration. (kan je checken via `do show running-config`)
+- router ontvangt de configuration en werkt met de ingestelde configuration.
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
 ## Test: tftp configurations binnenhalen vanop switch
 
 Testprocedure:
+Switch instellen
 
-1. activeer de switch via `enable` en dan `config t`
-2. navigeer naar de interface via `interface vlan 1`
-3. stel ip address in: `ip-address 192.168.106.235 255.255.255.248`
-4. keer terug naar switch# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
-5. nodige gegevens:
-   address remote host: `192.168.106.234`
-   source filename: `S1_running-config.txt`
-   destination filename: `running-config`
+1.  activeer de switch via `enable` en dan `config t`
+2.  vlans leegmaken: `delete flash:vlan.dat`
+3.  reload switch: `reload`
+4.  navigeer naar de interface via `interface vlan 1`
+5.  stel ip address in: `ip-address 192.168.106.235 255.255.255.248`
+6.  keer terug naar switch# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
+7.  nodige gegevens:
+    address remote host: `192.168.106.234`
+    source filename: `s1final-confg`
+    destination filename: `running-config`
+8.  Controleer via `show running-config`
+9.  Controleer via `show vlan brief`
 
-   Verwacht resultaat:
+Verwacht resultaat:
 
-- switch ontvangt de configuration en werkt met de ingestelde configuration. (kan je checken via `do show running-config`)
+- switch ontvangt de configuration en werkt met de ingestelde configuration.
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
