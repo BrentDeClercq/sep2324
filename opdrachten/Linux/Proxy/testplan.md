@@ -24,15 +24,26 @@ Testprocedure:
 1. Navigeer naar de map `/opdrachten/Linux/Vagrant/`
 2. Voer volgend commando uit: `vagrant up proxy db web client`
 3. ssh naar server: `vagrant ssh proxy`
-4. surf naar http://g06-tenurit.internal vanop client
-5. surf naar https://g06-tenurit.internal vanop client 
+4. surf naar http://g06-tenurit.internal vanop de windows client of gebruikmakend van de eigen dns regels op host
+5. surf naar https://g06-tenurit.internal vanop de windows client of gebruikmakend van de eigen dns regels op host
+6. kijk in de log files of je http/2 ziet staan
 
-Verwacht resultaat:
+Verwacht resultaat:  
 
 - beide zouden een wordpress pagina moeten geven
+- je zou af en toe http/2 moeten zien staan
+
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
-## Test: <!-- Omschrijving test. -->
+## Test: nmap obfuscation
 
-...
+Testprocedure:
+
+1. voer volgend commandos uit ergens, behalve op de proxy:
+   1. nmap 192.168.106.250
+   2. nmap -p80,443 192.168.106.250
+
+Verwacht resultaat:  
+
+- Je zou geen versie nummer mogen zien staan naast nginx
