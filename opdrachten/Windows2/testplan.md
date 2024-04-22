@@ -75,6 +75,34 @@ Testprocedure:
 Verwacht resultaat:
 
 - De logische domeinstructuur werd opgesteld, dit kun je nagaan via de RSAT-tools
+- Er zijn zowel normale users als admins aangemaakt tijdens het proces
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 ![domeinstructuur](./img/logische-domeinstructuur.png)
+![users](./img/add-users-script-voltooid.png)
+![admins](./img/add-users-admins.png)
+
+
+## Test: Instellen group policies & Shared Folders
+
+Testprocedure:
+
+1. Voer script `group-policies.ps1` uit
+2. Voer script `shared-folders.ps1` uit
+
+Verwacht resultaat:
+
+- Niet-admin gebruikers zullen niet kunnen inloggen op de DC, admins wel zoals je kan zien op de screenshots
+- Gebruikers kunnen elkaars shared folders niet modifiëren, enkel hun eigen shared folders
+
+<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+![adminlogin](./img/admin-kan-inloggen-grouppolicy.png)
+![adminlogin](./img/admin-kan-inloggen-grouppolicy2.png)
+
+![userlogin](./img/user-kan-niet-inloggen-grouppolicy.png)
+![userlogin](./img/user-kan-niet-inloggen-grouppolicy2.png)
+
+![sharedfolders](./img/shared-folders.png)
+![sharedfolders](./img/shared-folders2.png)
+
+
