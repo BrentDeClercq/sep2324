@@ -17,6 +17,7 @@ Verwacht resultaat:
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 ![VMs-aangemaakt](./img/vms-worden-aangemaakt.png)
 
+
 ## Test: Promoveren van server VM naar domeincontroller
 
 Testprocedure:
@@ -31,6 +32,7 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 ![domeincontroller](./img/get-addomaincontroller.png)
+
 
 ## Test: Installeren RSAT tools
 
@@ -47,4 +49,32 @@ Verwacht resultaat:
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
 
+## Test: Opzetten AD-domein en toevoegen windows client aan dit domein
 
+Testprocedure:
+
+1. Voer het script `install-forest.ps1` uit op de DC om het AD domein op te zetten
+2. Voeg nadien de client toe aan het domein door het script `add-client-to-domain.ps1` uit te voeren op de client
+3. Voer het script `configure-staticIP.ps1` uit op beide VM's (niet dezelfde scripts, enkel degene die in de juiste map staan) om de IP's te configureren en na te gaan dat de VMs elkaar kunnen pingen
+
+Verwacht resultaat:
+
+- Via de RSAT tools op de client kun je nagaan of de client daadwerkelijk in het domein zit
+
+<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+![client-bij-domein](./img/client-bij-domein.png)
+![adapter-settings](./img/adapter-settings.png)
+
+## Test: Opstellen logische domeinstructuur
+
+Testprocedure:
+
+1. Voeg op de DC het script `ou-installation.ps1` uit om de logische domeinstructuur op te stellen
+2. Voeg alle gebruikers en toestellen toe op het domein door script `add-users.ps1` en `add-computers.ps1` uit te voeren
+
+Verwacht resultaat:
+
+- De logische domeinstructuur werd opgesteld, dit kun je nagaan via de RSAT-tools
+
+<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+![domeinstructuur](./img/logische-domeinstructuur.png)
