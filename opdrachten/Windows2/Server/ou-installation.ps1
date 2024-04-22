@@ -1,3 +1,7 @@
 ﻿New-ADOrganizationalUnit -Name "Tenurit" -Path "DC=ad,DC=g06-thematrix,DC=internal"
 New-ADOrganizationalUnit -Name "Users" -Path "OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
 New-ADOrganizationalUnit -Name "Computers" -Path "OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
+New-ADOrganizationalUnit -Name "Admins" -Path "OU=Users,OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
+New-ADOrganizationalUnit -Name "WorkAccounts" -Path "OU=Users,OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
+New-ADOrganizationalUnit -Name "DomainControllers" -Path "OU=Computers,OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
+New-ADOrganizationalUnit -Name "Clients" -Path "OU=Computers,OU=Tenurit,DC=ad,DC=g06-thematrix,DC=internal"
