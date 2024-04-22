@@ -106,3 +106,18 @@ Verwacht resultaat:
 ![sharedfolders](./img/shared-folders2.png)
 
 
+## Test: Instellen DNS-server
+
+Testprocedure:
+
+1. Voer de scripts `rename-dc.ps1` & `rename-client.ps1`uit
+2. Voer volgende scripts uit: `dns-configuratie.ps1` -> `dns-reverselookup` -> `dns-PTR`
+
+Verwacht resultaat:
+
+- De zones werden succesvol aangemaakt en de dns service is running
+
+<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+![dns](./img/reverse-lookup-zone-toegevoegd.png)
+
+
