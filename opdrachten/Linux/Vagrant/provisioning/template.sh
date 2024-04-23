@@ -37,3 +37,6 @@ log "Starting server specific provisioning tasks on ${HOSTNAME}"
 # Network settings
 sudo ifconfig eth1 ${IP_ADDRESS} netmask ${NETMASK}
 sudo systemctl restart NetworkManager
+
+sudo ip route del default
+sudo ip route add default via 192.168.106.241 dev eth1

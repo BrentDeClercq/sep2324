@@ -71,3 +71,6 @@
 
 - name: proxy
   box: bento/almalinux-9
+
+- name: nextcloud
+  box: bento/almalinux-9
