@@ -88,7 +88,7 @@ Commits:
 - Server en client van testplan geïnstalleerd maar nog geen provisioning
 - Begonnen aan windows server te provisionen
 
-- Commits
+Commits:
 - [8fbe5cc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/8fbe5cc20d01a834f48587e52bf44d48bf949108)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
