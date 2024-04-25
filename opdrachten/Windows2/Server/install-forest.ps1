@@ -1,5 +1,5 @@
 ﻿Install-ADDSForest `
-    -DomainName "ad.g06-thematrix.internal" `
+    -DomainName "ad.g06-tenurit.internal" `
     -DomainNetBIOSName "TENURIT" `
     -DomainMode "WinThreshold" `
     -ForestMode "WinThreshold" `
