@@ -25,7 +25,7 @@ Verwacht resultaat:
 ## Test: tftp configurations binnenhalen vanop router
 
 Testprocedure:
-Router instellen (switch instellen tot stap 5 eerst!)
+Router instellen (switch instellen tot stap 6 eerst!)
 
 1.  activeer de router via `enable` en dan `config t`
 2.  navigeer naar de interface via `interface g0/0/0`
@@ -37,7 +37,9 @@ Router instellen (switch instellen tot stap 5 eerst!)
     source filename: `r1final.txt`
     destination filename: `running-config`
 7.  Controleer via `show running-config`
+    ![running-config](../TFTP/img/routerBewijs1.png)
 8.  Controleer via `show ip interface brief`
+    ![running-config](../TFTP/img/routerBewijs2.png)
 9.  indien 8. aantoonde dat g0/0/0.1 zijn ip-address niet heeft -> `conf t` -> `interface g0/0/0.1` -> `ip address 192.168.106.233 255.255.255.248`.
 
 Verwacht resultaat:
@@ -53,7 +55,7 @@ Switch instellen
 
 1.  activeer de switch via `enable`
 2.  vlans leegmaken: `delete flash:vlan.dat`
-3.  reload switch: `reload`
+3.  reload switch: `reload` en `yes`voor de changes
 4.  ga naar de global configuration mode met `enable` en dan `config t`
 5.  navigeer naar de interface via `interface vlan 1`
 6.  stel ip address in: `ip-address 192.168.106.235 255.255.255.248`
@@ -63,7 +65,9 @@ Switch instellen
     source filename: `s1final-confg`
     destination filename: `running-config`
 9.  Controleer via `show running-config`
+    ![running-config](../TFTP/img/switchBewijs1.png)
 10. Controleer via `show vlan brief`
+    ![running-config](../TFTP/img/switchBewijs2.png)
 
 Verwacht resultaat:
 
