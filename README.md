@@ -66,6 +66,7 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
   - [Week 4](./opvolging/Opvolgingsformulier%204/opvolgingsrapport-4.md)
   - [Week 5](./opvolging/Opvolgingsformulier%205/opvolgingsrapport-5.md)
   - [Week 6](./opvolging/Opvolgingsformulier%206/opvolgingsrapport-6.md)
+  - [Week 7](./opvolging/Opvolgingsformulier%207/opvolgingsrapport-7.md)
 
 - Opdrachten
 
@@ -88,3 +89,7 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
       - [Lastenboek](./opdrachten/Linux/Webserver/lastenboek.md)
       - [Testplan](./opdrachten/Linux/Webserver/testplan.md)
       - [Testrapport](./opdrachten/Linux/Webserver/testrapport.md)
+
+  - Windows
+    - Server
+    - Client
