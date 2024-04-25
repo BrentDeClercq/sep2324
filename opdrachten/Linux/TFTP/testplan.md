@@ -51,18 +51,19 @@ Verwacht resultaat:
 Testprocedure:
 Switch instellen
 
-1.  activeer de switch via `enable` en dan `config t`
+1.  activeer de switch via `enable`
 2.  vlans leegmaken: `delete flash:vlan.dat`
 3.  reload switch: `reload`
-4.  navigeer naar de interface via `interface vlan 1`
-5.  stel ip address in: `ip-address 192.168.106.235 255.255.255.248`
-6.  keer terug naar switch# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
-7.  nodige gegevens:
+4.  ga naar de global configuration mode met `enable` en dan `config t`
+5.  navigeer naar de interface via `interface vlan 1`
+6.  stel ip address in: `ip-address 192.168.106.235 255.255.255.248`
+7.  keer terug naar switch# via `exit`en vraag de tftp server voor de config via `copy tftp running-config`
+8.  nodige gegevens:
     address remote host: `192.168.106.234`
     source filename: `s1final-confg`
     destination filename: `running-config`
-8.  Controleer via `show running-config`
-9.  Controleer via `show vlan brief`
+9.  Controleer via `show running-config`
+10. Controleer via `show vlan brief`
 
 Verwacht resultaat:
 
