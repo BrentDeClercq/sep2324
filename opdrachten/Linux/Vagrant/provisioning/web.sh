@@ -87,5 +87,10 @@ sudo setsebool -P httpd_can_network_connect_db on
 # Restart apache
 sudo systemctl restart httpd
 
+
+# Network settings
+sudo ifconfig eth1 $IP_WEB netmask $NETMASK_WEB
+sudo systemctl restart NetworkManager
+
 sudo ip route del default
 sudo ip route add default via 192.168.106.241 dev eth1

@@ -105,5 +105,10 @@ sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/dump.sql
 
 sudo systemctl restart mariadb
 
+
+# Network settings
+sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
+sudo systemctl restart NetworkManager
+
 sudo ip route del default
 sudo ip route add default via 192.168.106.241 dev eth1
