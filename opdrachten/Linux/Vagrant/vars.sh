@@ -21,6 +21,10 @@ IP_TFTP_TEST="192.168.106.235"
 IP_PROXY="192.168.106.250"
 NETMASK_PROXY="255.255.255.252"
 
+# Nextcloud
+IP_NEXTCLOUD="192.168.106.245"
+NETMASK_SERVERS="255.255.255.248"
+
 #---------------------------------------------------------
 # Network settings Brent
 #---------------------------------------------------------
@@ -36,6 +40,10 @@ NETMASK_PROXY="255.255.255.252"
 # Proxy
 # IP_PROXY="192.168.7.12"
 # NETMASK_PROXY="255.255.252.0"
+
+# Nextcloud
+# IP_NEXTCLOUD="192.168.7.13"
+# NETMASK_SERVERS="255.255.252.0"
 
 #---------------------------------------------------------
 # Network settings Kenji
@@ -68,3 +76,11 @@ db_config_path="/etc/my.cnf.d/mariadb-server.cnf"
 # Webserver
 #---------------------------------------------------------
 wp_config_path="/var/www/html/wordpress/wp-config.php"
+
+
+#---------------------------------------------------------
+# Nextcloud
+#---------------------------------------------------------
+nc_db_name="nextcloud"
+nc_db_user="next"
+nc_db_user_passwd="cloud"
