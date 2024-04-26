@@ -47,7 +47,7 @@ Verwacht resultaat:
 - Je beschikt over de benodigde RSAT-tools op je client VM
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
-
+![rsat](./img/RSAT.png)
 
 ## Test: Opzetten AD-domein en toevoegen windows client aan dit domein
 
