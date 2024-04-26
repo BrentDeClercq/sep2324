@@ -59,18 +59,14 @@ sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --reload
 
 
-# sudo setenforce 0 
-# sudo chown -R apache:apache /var/www/html/
-# sudo chmod -R 755 /var/www/html/
-# sudo chcon -R -t httpd_sys_rw_content_t /var/www/html/
-
-
 # Download and extract Nextcloud
 log "Downloading and extracting Nextcloud..."
-wget https://download.nextcloud.com/server/releases/latest.tar.bz2 
+
+wget https://download.nextcloud.com/server/releases/latest.tar.bz2
 sudo tar -xjf latest.tar.bz2 -C /var/www/html/
 sudo chown -R apache:apache /var/www/html/nextcloud/
 sudo chmod -R 755 /var/www/html/nextcloud/
+
 log "Downloaded"
 
 # # Configure Apache for Nextcloud
@@ -82,16 +78,28 @@ log "Downloaded"
 # sudo sed -i "s/'dbuser' => .*,/'dbuser' => '$nc_db_user',/g" /var/www/html/nextcloud/config/config.php
 # sudo sed -i "s/'dbpassword' => .*,/'dbpassword' => '$nc_db_user_passwd',/g" /var/www/html/nextcloud/config/config.php
  
-# sudo rm /var/www/html/nextcloud/config/config.php
 # sudo cp /vagrant/configs/nextcloud/config.php /var/www/html/nextcloud/config/config.php
+sudo rm -r /var/www/html/nextcloud/config/
+sudo cp -r /vagrant/configs/nextcloud/config/ /var/www/html/nextcloud/config/
+# sudo rm -r /var/www/html/nextcloud/data/
+sudo cp -r /vagrant/configs/nextcloud/data/ /var/www/html/nextcloud/data/
+
+
+
+sudo chown -R apache:apache /var/www/html/
+sudo chmod -R 755 /var/www/html/
+sudo chcon -R -t httpd_sys_rw_content_t /var/www/html/
 
 # Set SELinux permissions
-#sudo semanage fcontext -a -t httpd_sys_rw_content_t '/var/www/html/nextcloud/data(/.*)?' 2>&1 /dev/null
-#sudo semanage fcontext -a -t httpd_sys_rw_content_t '/var/www/html/nextcloud/config(/.*)?' 2>&1 /dev/null
+log "Selinux settings"
+
+sudo setsebool -P httpd_can_network_connect_db on
+# sudo semanage fcontext -d '/var/www/html/nextcloud(/.*)?'
+sudo semanage fcontext -a -t httpd_sys_rw_content_t '/var/www/html/nextcloud(/.*)?'
 sudo restorecon -Rv /var/www/html/nextcloud/ 2>&1 /dev/null
 sudo chmod -R 755 /var/www/html/nextcloud/
 
-# Set up Apache virtual host
+# Set up Apache 
 sudo tee /etc/httpd/conf.d/nextcloud.conf > /dev/null <<EOF
 Alias /nextcloud "/var/www/html/nextcloud/"
 
@@ -109,5 +117,9 @@ EOF
 sudo systemctl restart httpd
 
 sudo restorecon -Rv /var/www/html/nextcloud/ 2>&1 /dev/null
+
+sudo ifconfig eth1 ${IP_NEXTCLOUD} netmask ${NETMASK_SERVERS}
+sudo systemctl restart NetworkManager
+
 
 echo "Nextcloud installation completed successfully."
