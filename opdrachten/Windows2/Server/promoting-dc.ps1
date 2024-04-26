@@ -1,4 +1,7 @@
-﻿#AD module importeren
+#Tools installeren
+Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
+
+#AD module importeren
 Import-Module ADDSDeployment
 
 #Server promoten naar DC
@@ -8,10 +11,11 @@ Install-ADDSDomainController `
     -Credential (Get-Credential) `
     -CriticalReplicationOnly:$false `
     -DatabasePath "C:\Windows\NTDS" `
-    -DomainName "tenurit.local" `
+    -DomainName "ad.g06-tenurit.internal" `
     -InstallDns:$true `
     -LogPath "C:\Windows\NTDS" `
     -NoRebootOnCompletion:$false `
     -SiteName "Default-First-Site-Name" `
     -SysvolPath "C:\Windows\SYSVOL" `
     -Force:$true
+
