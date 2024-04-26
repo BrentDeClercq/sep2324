@@ -55,7 +55,14 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- testplannen tftp aangepast met juiste benaming bestanden en afbeeldingen van uitvoer.
+
+Commits:
+
+- [625401](https://github.com/HoGentTIN/sep2324-gent-g06/commit/625401420753e36dab8f90e08f703e85c0a90b52)
+- [c6fe1b](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c6fe1be4a1b8c3253482e4455afaf9bbcb5cc545)
+- [c8abdc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c8abdc48eb40baaa127453c65c4d7a13678ded9f)
+- [075286](https://github.com/HoGentTIN/sep2324-gent-g06/commit/075286ae5a47a58fb3e5912ee75c346fb918c266)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -89,6 +96,7 @@ Commits:
 - Begonnen aan windows server te provisionen
 
 Commits:
+
 - [8fbe5cc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/8fbe5cc20d01a834f48587e52bf44d48bf949108)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
@@ -118,7 +126,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Uitbreidingen indien nodig en mogelijks overgebleven kaarten afwerken
 
 ### Julie De Witte
 

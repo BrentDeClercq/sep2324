@@ -1,1 +1,0 @@
-﻿Rename-Computer -NewName "DC"
