@@ -3,8 +3,8 @@
 #---------------------------------------------------------
 
 # Database
-IP_DATABASE="192.168.106.243"
-NETMASK_DATABASE="255.255.255.248"
+# IP_DATABASE="192.168.106.243"
+# NETMASK_DATABASE="255.255.255.248"
 
 # Web
 IP_WEB="192.168.106.244"
@@ -22,16 +22,16 @@ IP_PROXY="192.168.106.250"
 NETMASK_PROXY="255.255.255.252"
 
 # Nextcloud
-IP_NEXTCLOUD="192.168.106.245"
-NETMASK_SERVERS="255.255.255.248"
+# IP_NEXTCLOUD="192.168.106.245"
+# NETMASK_SERVERS="255.255.255.248"
 
 #---------------------------------------------------------
 # Network settings Brent
 #---------------------------------------------------------
 
 # Database
-# IP_DATABASE="192.168.7.10"
-# NETMASK_DATABASE="255.255.252.0"
+IP_DATABASE="192.168.7.10"
+NETMASK_DATABASE="255.255.252.0"
 
 # Web
 # IP_WEB="192.168.7.11"
@@ -42,8 +42,8 @@ NETMASK_SERVERS="255.255.255.248"
 # NETMASK_PROXY="255.255.252.0"
 
 # Nextcloud
-# IP_NEXTCLOUD="192.168.7.13"
-# NETMASK_SERVERS="255.255.252.0"
+IP_NEXTCLOUD="192.168.7.13"
+NETMASK_SERVERS="255.255.252.0"
 
 #---------------------------------------------------------
 # Network settings Kenji

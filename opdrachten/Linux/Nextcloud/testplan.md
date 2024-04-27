@@ -5,15 +5,13 @@
 ## Test: Installatie
 
 Testprocedure:
-fix git error
 
-1. ...
-2. ...
+1. Start de database en nextcloud vm's: `vagrant up db nextcloud`
+2. Surf naar 192.168.106.245/nextcloud
 
 Verwacht resultaat:
 
-- ...
-- ...
+- De login pagina van Nextcloud is zichtbaar
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
@@ -21,13 +19,19 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. ...
-2. ...
+1. Login als admin:
+
+   - Username: `next`
+   - Password: `cloud`
+
+2. Login als extra gebruiker:
+
+   - Username: `Brent`
+   - Password: `Brent.2024`
 
 Verwacht resultaat:
 
-- ...
-- ...
+- Je kan op beide accounts inloggen
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
@@ -35,7 +39,7 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. ...
+1. Login op
 2. ...
 
 Verwacht resultaat:
