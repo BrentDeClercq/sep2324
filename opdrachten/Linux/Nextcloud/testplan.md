@@ -5,6 +5,7 @@
 ## Test: Installatie
 
 Testprocedure:
+fix git error
 
 1. ...
 2. ...
