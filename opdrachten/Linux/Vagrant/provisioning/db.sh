@@ -90,7 +90,7 @@ mysql <<_EOF_
 _EOF_
 fi
 
-log "Creating database and user"
+log "Creating web database and user"
 
 mysql --user=root --password="${db_root_passwd}" << _EOF_
 CREATE DATABASE IF NOT EXISTS ${db_name};
@@ -99,9 +99,18 @@ FLUSH PRIVILEGES;
 _EOF_
 
 
+log "Creating Nextcloud database and user"
+
+mysql --user=root --password="${db_root_passwd}" << _EOF_
+CREATE DATABASE IF NOT EXISTS ${nc_db_name};
+GRANT ALL ON ${nc_db_name}.* TO '${nc_db_user}'@'%' IDENTIFIED BY '${nc_db_user_passwd}';
+FLUSH PRIVILEGES;
+_EOF_
+
 log "Restoring old database"
 
-sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/dump.sql
+sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/web.sql
+sudo mysql -u root -p${db_root_passwd} ${nc_db_name} < /vagrant/configs/db/nextcloud.sql
 
 sudo systemctl restart mariadb
 
@@ -110,5 +119,5 @@ sudo systemctl restart mariadb
 sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
 sudo systemctl restart NetworkManager
 
-sudo ip route del default
-sudo ip route add default via 192.168.106.241 dev eth1
+# sudo ip route del default
+# sudo ip route add default via 192.168.106.241 dev eth1
