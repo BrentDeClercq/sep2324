@@ -15,6 +15,8 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
+![Login Pagina](./img/login_page.png)
+
 ## Test: Accounts
 
 Testprocedure:
@@ -35,33 +37,44 @@ Verwacht resultaat:
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
 
+![Account next](./img/account_next.png)
+
+![Account Brent](./img/account_brent.png)
+
 ## Test: Kalender
 
 Testprocedure:
 
-1. Login op
-2. ...
+1. Login op het account `next` met wachtwoord `cloud`
+2. Klik vanboven op het kalender icoontje
+
+![Kalender icoon](./img/kalender_icoon.png)
 
 Verwacht resultaat:
 
-- ...
-- ...
+- De kalender is zichtbaar
+- Er is een "afspraak" op 16 mei gepland
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+
+![Kalender](./img/kalender.png)
 
 ## Test: Forms
 
 Testprocedure:
 
-1. ...
-2. ...
+1. Login op nextcloud
+2. Klik op het forms icoontje
+
+![Forms icoon](./img/forms_icoon.png)
 
 Verwacht resultaat:
 
-- ...
-- ...
+- Er is een form zichtbaar, als je ingelogd bent via `next`, kan je dit ook bewerken
 
 <!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+
+![form](./img/form.png)
 
 ## Test: <!-- Omschrijving test. -->
 
