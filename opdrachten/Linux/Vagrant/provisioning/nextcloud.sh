@@ -116,6 +116,9 @@ Alias /nextcloud "/var/www/html/nextcloud/"
  </IfModule>
 </Directory>
 EOF
+
+sudo -u apache php /var/www/html/nextcloud/occ files:scan --all
+
 # Restart Apache
 sudo systemctl restart httpd
 
