@@ -1,0 +1,26 @@
+{ "translations": {
+    "Copy" : "Kopieer",
+    "Shared with you" : "Met u gedeel",
+    "Required" : "Vereis",
+    "Other" : "Ander",
+    "Set expiration date" : "Stel vervaldatum",
+    "Delete" : "Skrap",
+    "Group" : "Groep",
+    "Share link" : "Deel skakel",
+    "Add link" : "Voeg skakel toe",
+    "Internal link" : "Interne skakel",
+    "Share" : "Deel",
+    "View" : "Bekyk",
+    "Edit" : "Wysig",
+    "Description" : "Beskrywing",
+    "Download" : "Laai af",
+    "Summary" : "Opsomming",
+    "Settings" : "Instellings",
+    "Submit" : "Dien in",
+    "Date" : "Datum",
+    "Time" : "Tyd",
+    "Text" : "Teks",
+    "Phone number" : "Foonnommer",
+    "Email address" : "E-posadres"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

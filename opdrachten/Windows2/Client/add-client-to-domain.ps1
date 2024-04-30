@@ -1,6 +1,6 @@
 ##variabelen
 $Credential = Get-Credential
-$ComputerName = "ClIENT01"
+$ComputerName = "CLIENT01"
 $DomainName = "ad.g06-tenurit.internal"
 
 ##client toevoegen aan domein

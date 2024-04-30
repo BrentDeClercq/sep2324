@@ -22,9 +22,10 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voer het script `promoting-dc.ps1` uit op de server VM om deze te promoveren naar DomeinController
-2. Zorg wel dat de guest-additions geïnstalleerd zijn, anders zal het script niet werken!
-3. Je kan nagaan of het geslaagd is door volgend commando in te geven op de DC: `Get-ADDomainController`
+1. Voer het script `config-dc1.ps1` uit op de server VM om de instellingen juist te configureren
+2. Installeer vervolgens de guest-additions op de server VM
+3. Voer het script `install-forest.ps1` uit op de server VM 
+4. Je kan nagaan of het geslaagd is door volgend commando in te geven op de DC: `Get-ADDomainController`
 
 Verwacht resultaat:
 
@@ -38,8 +39,9 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voer het script `config-client.ps1` uit op de client VM
-2. Zorg hier wederom dat de guest-additions geïnstalleerd zijn, aangezien het script anders niet zal werken!
+1. Voer het script `config-client01.ps1` uit op de client VM
+2. Voer het script `rsat.ps1` uit op de client VM (internet connectie is hiervoor noodzakelijk!) 
+2. Zorg hier wederom dat de guest-additions geïnstalleerd zijn
 3. Ga na of de RSAT-tools geïnstalleerd zijn via Control Panel
 
 Verwacht resultaat:
@@ -53,9 +55,8 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voer het script `install-forest.ps1` uit op de DC om het AD domein op te zetten
-2. Voeg nadien de client toe aan het domein door het script `add-client-to-domain.ps1` uit te voeren op de client
-3. Voer het script `configure-staticIP.ps1` uit op beide VM's (niet dezelfde scripts, enkel degene die in de juiste map staan) om de IP's te configureren en na te gaan dat de VMs elkaar kunnen pingen
+1. Voeg de client toe aan het domein (screenshot voor verdere uitleg)
+2. Ga na of de DC en client elkaar kunnen pingen
 
 Verwacht resultaat:
 
@@ -69,8 +70,7 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voeg op de DC het script `ou-installation.ps1` uit om de logische domeinstructuur op te stellen
-2. Voeg alle gebruikers en toestellen toe op het domein door script `add-users.ps1` en `add-computers.ps1` uit te voeren
+1. Voeg op de DC het script `config-ad.ps1` uit om de logische domeinstructuur op te stellen
 
 Verwacht resultaat:
 
@@ -87,20 +87,24 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voer script `group-policies.ps1` uit
-2. Voer script `shared-folders.ps1` uit
+1. Zorg dat niet-admin gebruikers niet kunnen inloggen als admin, door middel van de GPO in te stellen (kijk screenshot)
+2. Voer script `shared-folders.ps1` uit 
 
 Verwacht resultaat:
 
-- Niet-admin gebruikers zullen niet kunnen inloggen op de DC, admins wel zoals je kan zien op de screenshots
-- Gebruikers kunnen elkaars shared folders niet modifiëren, enkel hun eigen shared folders
+- GPO instellen
 
-<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
+![GPO](./img/group-policy-instellen.png)
+
+- Niet-admin gebruikers zullen niet kunnen inloggen op de DC, admins wel zoals je kan zien op de screenshots
+
 ![adminlogin](./img/admin-kan-inloggen-grouppolicy.png)
 ![adminlogin](./img/admin-kan-inloggen-grouppolicy2.png)
 
 ![userlogin](./img/user-kan-niet-inloggen-grouppolicy.png)
 ![userlogin](./img/user-kan-niet-inloggen-grouppolicy2.png)
+
+- Gebruikers kunnen elkaars shared folders niet modifiëren, enkel hun eigen shared folders
 
 ![sharedfolders](./img/shared-folders.png)
 ![sharedfolders](./img/shared-folders2.png)
@@ -110,14 +114,7 @@ Verwacht resultaat:
 
 Testprocedure:
 
-1. Voer de scripts `rename-dc.ps1` & `rename-client.ps1`uit
-2. Voer volgende scripts uit: `dns-configuratie.ps1` -> `dns-reverselookup` -> `dns-PTR`
 
 Verwacht resultaat:
-
-- De zones werden succesvol aangemaakt en de dns service is running
-
-<!-- Voeg hier eventueel een screenshot van het verwachte resultaat in. -->
-![dns](./img/reverse-lookup-zone-toegevoegd.png)
 
 
