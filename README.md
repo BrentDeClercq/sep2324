@@ -70,6 +70,8 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 
 - Opdrachten
 
+  - [Offerte](./opdrachten/Offerte/Offerte.pdf)
+
   - Linux
 
     - TFTP
