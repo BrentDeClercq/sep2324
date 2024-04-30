@@ -3,8 +3,8 @@
 ## Algemeen
 
 - Groep: G06
-- Periode: 18/04/2024 tot 25/04/2024
-- Datum voortgangsgesprek: 25/04/2024
+- Periode: 18/04/2024 tot 02/05/2024
+- Datum voortgangsgesprek: 02/05/2024
 
 | Student         | Afw. | Opmerking |
 | :-------------- | :--: | :-------- |
@@ -18,7 +18,7 @@
 
 ### Algemeen
 
-- ...
+- Nextcloud
 - ...
 
 #### KanBan
@@ -39,7 +39,30 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Nextcloud installatie
+- Nextcloud gebruikers
+- Nextcloud Kalender
+- Nextcloud forms
+
+Commits:
+
+- [70f5ef4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/70f5ef4139835757b4eb54895e98c226e1ed2ad4)
+- [bc33997](https://github.com/HoGentTIN/sep2324-gent-g06/commit/bc33997267ab15bc4edece69ed4f84b401d95159)
+- [83a75aa](https://github.com/HoGentTIN/sep2324-gent-g06/commit/83a75aa6ce3544714d1e0ea92805f77a5fef5ddf)
+- [f9a4ed1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f9a4ed1eb9811fd17c06f90490077a9aa50ef6bf)
+- [27265cf](https://github.com/HoGentTIN/sep2324-gent-g06/commit/27265cf590fce4607d9590126329ca34a0238c95)
+- [26aa546](https://github.com/HoGentTIN/sep2324-gent-g06/commit/26aa546c000708488392033d6a9d7b367c01bd9e)
+- [2e0ffe3](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2e0ffe38eddaca7637e7eb377003c8444563a81b)
+- [f139ade](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f139adeb53cf0a641ed0f4e306ba2e30610c406a)
+- [22fe657](https://github.com/HoGentTIN/sep2324-gent-g06/commit/22fe6573e8eb888f77eef2c55d62383df500c699)
+- [c2df64b](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c2df64b721eff57fe361a389b34252075e8b264a)
+- [a88e80d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/a88e80d62187f9efa0f4cf9ad1b4101a015c8bf4)
+- [dfd2cca](https://github.com/HoGentTIN/sep2324-gent-g06/commit/dfd2cca82de41fb59ac1298a3716930c7f2163a3)
+- [f464535](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f464535f416406474c7a6555c269a1d10e6988da)
+- [9720a59](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9720a59a344df055e3437e7aad9f478440ffc12e)
+- [5b57d35](https://github.com/HoGentTIN/sep2324-gent-g06/commit/5b57d35db407cbf0135cd434fb7ced61da58fcfb)
+- [2f6cac1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2f6cac12907a6d2e352287795fec25fb3eb53041)
+- [656c71d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/656c71d1798535fd5683fd34ebc2be8404480db3)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -114,7 +137,8 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Nog eens kijken naar andere uitbreidingen
+- Hele setup leren, zodat ik op de eind demo weet hoe alles in elkaar zit
 
 ### Kenji De Coster
 
