@@ -70,7 +70,26 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Nextcloud geïntegreerd in de reverse proxy (nog te testen)
+- Bezig geweest met een CA te worden/ aan te maken
+
+commits:
+- [059794c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/059794c11ae60af2339bd86c59b1cd7c1d145e8d)
+- [47c5a0d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/47c5a0dd3b3f2942dd309f5bf96f881962e61c63)
+- [9b644ed](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9b644ed4442d210b8fc7e1057d1d9991ba30f45a)
+- [cfb0f25](https://github.com/HoGentTIN/sep2324-gent-g06/commit/cfb0f253af63306a76be54ff7a5d761fb0a82883)
+- [861ff38](https://github.com/HoGentTIN/sep2324-gent-g06/commit/861ff3801228af1ca3b372f6b667eddf6597792c)
+- [3a7c56d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/3a7c56d1631bb18cd382a5d4017513f3b2bc77a0)
+- [73a5278](https://github.com/HoGentTIN/sep2324-gent-g06/commit/73a527894e230827c6c6344bca3e67e2f2fb6f26)
+- [f0e143a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f0e143a668bb069c849068b3ada3a62ebbb07386)
+- [fbf31ea](https://github.com/HoGentTIN/sep2324-gent-g06/commit/fbf31eaf676970dcc06c622537b4c338cf849409)
+- [507ea98](https://github.com/HoGentTIN/sep2324-gent-g06/commit/507ea9861ae141bbb0f5de47e9c089b37b5ce1bf)
+- [ed13c93](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ed13c936b151ecc6e575bf4f0fc03b2a08f56d5a)
+- [2039ba3](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2039ba317995854c36526b8171dfd1074dd64d4f)
+- [c251336](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c25133640ad5ba4e12ceb7c58a63285d13077b2d)
+- [89e9003](https://github.com/HoGentTIN/sep2324-gent-g06/commit/89e9003f123267ce29c34c42de0612eeb8bab84f)
+- [6fa846c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/6fa846c1d6e7be4a262719b03ee07bd619de4c61)
+- [4fe1bc2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4fe1bc2fe50ebbf9327dfca91f490ef67770790b)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
