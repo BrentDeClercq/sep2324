@@ -19,19 +19,19 @@
 ### Algemeen
 
 - Nextcloud
-- ...
+- Testrapport Windows
 
 #### KanBan
 
-<!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
+![alt text](./imgw7/Kanban7.png)
 
 #### Tijdsregistratie
 
-<!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
+![alt text](./imgw7/tijdsregistratie_groep.png)
 
 #### Cumulatief flow diagram
 
-<!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
+![alt text](./imgw7/CFD7.png)
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
 
@@ -66,6 +66,8 @@ Commits:
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
+![alt text](./imgw7/Brent7.png)
+
 ### Kenji De Coster
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
@@ -91,7 +93,7 @@ commits:
 - [6fa846c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/6fa846c1d6e7be4a262719b03ee07bd619de4c61)
 - [4fe1bc2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4fe1bc2fe50ebbf9327dfca91f490ef67770790b)
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![alt text](./imgw7/Kenji7.png)
 
 ### Nobel Fiers
 
@@ -106,7 +108,7 @@ Commits:
 - [c8abdc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c8abdc48eb40baaa127453c65c4d7a13678ded9f)
 - [075286](https://github.com/HoGentTIN/sep2324-gent-g06/commit/075286ae5a47a58fb3e5912ee75c346fb918c266)
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![alt text](./imgw7/Nobel7.png)
 
 ### Julie De Witte
 
@@ -127,21 +129,26 @@ Commits:
 - [03337fe](https://github.com/HoGentTIN/sep2324-gent-g06/commit/03337fe989cb2b77d75b581a67aaeef3b1544b52)
 - [4708fb3](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4708fb3eedf1f2a6df520ebb8aa595faa14fc1f0)
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![alt text](./imgw7/Julie7.png)
 
 ### Rayane Yousti
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
 - Domeinnaam in scripts aangepast
-- Server en client van testplan geïnstalleerd maar nog geen provisioning
-- Begonnen aan windows server te provisionen
+- VirtualBox problemen opgelost
+- Windows server en client volledig in orde gebracht
+- Windows Server testrapport opgemaakt
+- Onderzoek uitbreiding Matrix.org
 
 Commits:
 
 - [8fbe5cc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/8fbe5cc20d01a834f48587e52bf44d48bf949108)
+- [e4f1f7a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e4f1f7aa8f195aaec7463dcd62fe45a8e6c8dfc4)
+- [7c88593](https://github.com/HoGentTIN/sep2324-gent-g06/commit/7c88593a7dccf4cd3638b6aaa9ddee94ccbed1bc)
+- [0122ea9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0122ea924f2f74b09926031ae7b798afe5b659b8)
 
-<!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![alt text](./imgw7/Rayane7.png)
 
 ## Wat plan je volgende periode te doen?
 
@@ -149,7 +156,7 @@ Commits:
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
+- Matrix.org volledig opmaken + testplan opstellen
 - ...
 
 ### Brent De Clercq
@@ -182,8 +189,8 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- Testrapport van Windows afwerken
-- Uitbreiding redundantie van Windows server af te werken
+- Uitbreiding Matrix.org volledig afmaken tegen volgende meeting
+- Testrapport opstellen van uittbreiding
 
 ## Retrospectieve
 
