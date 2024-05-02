@@ -24,6 +24,7 @@ NETMASK_PROXY="255.255.255.252"
 # Nextcloud
 IP_NEXTCLOUD="192.168.106.245"
 NETMASK_SERVERS="255.255.255.248"
+IP_NEXTCLOUD_NMCLI="192.168.106.245/29"
 
 #---------------------------------------------------------
 # Network settings Brent

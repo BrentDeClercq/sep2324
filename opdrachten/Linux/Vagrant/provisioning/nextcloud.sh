@@ -124,11 +124,12 @@ sudo systemctl restart httpd
 
 sudo restorecon -Rv /var/www/html/nextcloud/ 2>&1 /dev/null
 
+
+
+
 sudo ifconfig eth1 ${IP_NEXTCLOUD} netmask ${NETMASK_SERVERS}
-sudo systemctl restart NetworkManager
-
-
-echo "Nextcloud installation completed successfully."
-
 sudo ip route del default
 sudo ip route add default via 192.168.106.241 dev eth1
+sudo systemctl restart NetworkManager
+
+echo "Nextcloud installation completed successfully."
