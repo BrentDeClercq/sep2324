@@ -149,18 +149,10 @@ sudo firewall-cmd --zone=public --add-service=http --permanent
 sudo firewall-cmd --zone=public --add-service=https --permanent
 sudo firewall-cmd --reload
 
+# Aangepaste header
+echo 'add_header Server "Das pech, proxy foetsie";' | sudo tee -a /etc/nginx/nginx.conf > /dev/null
+
 sudo systemctl restart nginx
-
-# Download the script from the GitHub repository
-
-# folder="/vagrant/configs/proxy"
-
-# curl -s https://raw.githubusercontent.com/Feriman22/portscan-protection/master/portscan-protection.sh -o $folder/portscan-protection.sh
-
-# sed -i 's|WHITELISTLOCATION="/usr/local/sbin/portscan-protection-white.list"|WHITELISTLOCATION="/vagrant/configs/proxy/portscan-protection-white.list"|g' $folder/portscan-protection.sh
-# sed -i 's|SCRIPTLOCATION="/usr/local/sbin/portscan-protection.sh"|SCRIPTLOCATION="/vagrant/configs/proxy/portscan-protection.sh"|g' $folder/portscan-protection.sh
-    
-# sudo bash $folder/portscan-protection.sh -i
 
 sudo ip route del default
 sudo ip route add default via 192.168.106.249 dev eth1
