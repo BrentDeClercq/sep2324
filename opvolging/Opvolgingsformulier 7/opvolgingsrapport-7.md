@@ -116,6 +116,7 @@ Commits:
 
 - Laatste aanpassingen aan automatisatie van gehele Windows omgeving
 - Testplannen geschreven van alles van Windows
+- Dns opnieuw geconfigureerd want daar zaten nog enkele fouten in
 
 Commits:
 
@@ -128,6 +129,11 @@ Commits:
 - [b7b9fea](https://github.com/HoGentTIN/sep2324-gent-g06/commit/b7b9feaef650c902ea0635144d90c6e8fb0791f6)
 - [03337fe](https://github.com/HoGentTIN/sep2324-gent-g06/commit/03337fe989cb2b77d75b581a67aaeef3b1544b52)
 - [4708fb3](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4708fb3eedf1f2a6df520ebb8aa595faa14fc1f0)
+- [ee74ceb](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ee74ceb74ee4fbf727d2f200be62760a2889391f)
+- [d968549](https://github.com/HoGentTIN/sep2324-gent-g06/commit/d968549b4dee6bb8fc64676c1ef89b25fae2454d)
+- [f668db9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f668db9422bb686ad8ea12bab79ce710d4704c13)
+- [e38168f](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e38168fde137d0239e8e8d4836cf1bfd283a280b)
+- [e88cc55](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e88cc55dfb62fe90d3df896d66c5b288825c880e)
 
 ![alt text](./imgw7/Julie7.png)
 
@@ -137,7 +143,6 @@ Commits:
 
 - Domeinnaam in scripts aangepast
 - VirtualBox problemen opgelost
-- Windows server en client volledig in orde gebracht
 - Windows Server testrapport opgemaakt
 - Onderzoek uitbreiding Matrix.org
 
@@ -182,7 +187,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- Helpen met uitbreidingen die nog gedaan moeten worden
+- Redundante windows server opstellen (uitbreiding)
 - Gehele setup testen van Windows
 
 ### Rayane Yousti
