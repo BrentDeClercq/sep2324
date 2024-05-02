@@ -104,16 +104,16 @@ sudo chmod -R 755 /var/www/html/nextcloud/
 
 # Set up Apache 
 sudo tee /etc/httpd/conf.d/nextcloud.conf > /dev/null <<EOF
-Alias /nextcloud "/var/www/html/nextcloud/"
+Alias / "/var/www/html/nextcloud/"
 
 <Directory /var/www/html/nextcloud/>
-  Require all granted
-  AllowOverride All
-  Options FollowSymLinks MultiViews
+    Require all granted
+    AllowOverride All
+    Options FollowSymLinks MultiViews
 
- <IfModule mod_dav.c>
-  Dav off
- </IfModule>
+    <IfModule mod_dav.c>
+        Dav off
+    </IfModule>
 </Directory>
 EOF
 
@@ -130,5 +130,5 @@ sudo systemctl restart NetworkManager
 
 echo "Nextcloud installation completed successfully."
 
-# sudo ip route del default
-# sudo ip route add default via 192.168.106.241 dev eth1
+sudo ip route del default
+sudo ip route add default via 192.168.106.241 dev eth1

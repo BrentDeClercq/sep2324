@@ -6,11 +6,12 @@ $CONFIG = array (
   'trusted_domains' => 
   array (
     0 => '192.168.7.13',
+    1 => 'nextcloud.g06-tenurit.internal',
   ),
   'datadirectory' => '/var/www/html/nextcloud/data',
   'dbtype' => 'mysql',
   'version' => '29.0.0.19',
-  'overwrite.cli.url' => 'http://192.168.7.13/nextcloud',
+  'overwrite.cli.url' => 'http://192.168.7.13',
   'dbname' => 'nextcloud',
   'dbhost' => '192.168.7.10',
   'dbport' => '',

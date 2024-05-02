@@ -119,5 +119,5 @@ sudo systemctl restart mariadb
 sudo ifconfig eth1 $IP_DATABASE netmask $NETMASK_DATABASE
 sudo systemctl restart NetworkManager
 
-# sudo ip route del default
-# sudo ip route add default via 192.168.106.241 dev eth1
+sudo ip route del default
+sudo ip route add default via 192.168.106.241 dev eth1
