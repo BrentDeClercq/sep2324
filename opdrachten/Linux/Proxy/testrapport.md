@@ -28,23 +28,28 @@ Opmerkingen:
 
 - ...
 
-## Test: <!-- Omschrijving test. -->
+## Test: Nmap obfuscation
 
 Test procedure:
 
-1. ...
-2. ...
+1. voer volgend commandos uit ergens, behalve op de proxy:
+   1. `nmap 192.168.106.250`
+   2. `nmap -p80,443 192.168.106.250`
+   3. `nmap -sV -p80,443 192.168.106.250`
 
 Verkregen resultaat:
 
-- ...
-- ...
+- Nmap versie is niet zichtbaar
+- Custom header werkt niet
 
 <!-- Voeg hier eventueel een screenshot van het verkregen resultaat in. -->
+
+![nmap scan](./img/nmap_scan_fail.png)
 
 Test geslaagd:
 
 - [ ] Ja
+- [x] Half
 - [ ] Nee
 
 Opmerkingen:
