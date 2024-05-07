@@ -59,6 +59,8 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 
 <!-- Vul aan. -->
 
+- [IP Tabel](./opdrachten/netwerk/ip-tabel.md)
+
 - Opvolging
 
   - [Week 2](./opvolging/Opvolgingsformulier%202/opvolgingsrapport-2.md)
