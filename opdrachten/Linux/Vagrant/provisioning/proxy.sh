@@ -44,23 +44,6 @@ sudo dnf update -y
 sudo dnf install nginx -y
 sudo systemctl enable --now nginx
 
-# sudo echo "server {
-#     listen 80;
-#     server_name 'g06-tenurit.internal';
-
-#     location / {
-#         proxy_pass http://$IP_WEB:80;
-#         proxy_set_header Host \$host;
-#         proxy_set_header X-Real-IP \$remote_addr;
-#         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-#         proxy_set_header X-Forwarded-Proto \$scheme;
-#     }
-# }" | sudo tee /etc/nginx/conf.d/g06-tenurit.conf > /dev/null
-
-# # sudo nginx -t (checkt voor syntax fouten in dit bestand)
-
-# sudo systemctl reload nginx
-
 # Certificaten voor de website
 
 sudo mkdir -p /etc/nginx/ssl/
