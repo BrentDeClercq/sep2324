@@ -90,12 +90,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
       node.vm.hostname = host['name']
       # node.vm.network :private_network, **network_options(host)
-      if host['name'] == 'enigma'
-       node.vm.network :public_network, type: "dhcp"
-       node.vm.network :public_network, type: "dhcp"
-      else
-       node.vm.network :public_network, type: "dhcp"
-      end
+      node.vm.network :public_network, type: "dhcp"
       custom_synced_folders(node.vm, host)
       forwarded_ports(node.vm, host)
 
