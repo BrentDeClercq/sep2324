@@ -74,6 +74,3 @@
 
 - name: nextcloud
   box: bento/almalinux-9
-
-- name: enigma
-  box: bento/almalinux-9
