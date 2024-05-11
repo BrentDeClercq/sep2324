@@ -74,3 +74,7 @@
 
 - name: nextcloud
   box: bento/almalinux-9
+
+- name: synapse
+  box: bento/almalinux-9
+
