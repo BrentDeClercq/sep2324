@@ -7,7 +7,8 @@ no ip domain-lookup
 !
 !
 interface GigabitEthernet0/0/1
- ip address 192.168.106.253 255.255.255.252
+ ip address dhcp
+ ip nat outside
  duplex auto
  speed auto
  no sh
@@ -17,17 +18,14 @@ interface GigabitEthernet0/0/1
 interface GigabitEthernet0/0/0.1
  encapsulation dot1Q 1
  ip address 192.168.106.233 255.255.255.248
- ip access-group TFTP-ACCESS out
 !
 interface GigabitEthernet0/0/0.11
  encapsulation dot1Q 11 native
  ip address 192.168.106.1 255.255.255.128
- ip access-group CLIENT-ACCESS out
 !
 interface GigabitEthernet0/0/0.13
  encapsulation dot1Q 13
  ip address 192.168.106.249 255.255.255.252
- ip access-group PROXY-ACCESS out
 !
 interface GigabitEthernet0/0/0.42
  encapsulation dot1Q 42
@@ -36,27 +34,16 @@ interface GigabitEthernet0/0/0.42
 !
 interface GigabitEthernet0/0/0
  no ip address
+ ip nat inside
  duplex auto
  speed auto
  no sh
 !
-!
-ip access-list standard PROXY-ACCESS
- permit host 192.168.106.2
- permit host 192.168.106.242
- permit host 192.168.106.243
- permit host 192.168.106.244
- deny any
-ip access-list standard CLIENT-ACCESS
- permit host 192.168.106.250
- permit host 192.168.106.242
- deny any
-ip access-list standard TFTP-ACCESS
- deny host 192.168.106.234
-!
+ip nat inside source list 1 interface GigabitEthernet0/0/1 overload
 !
 ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/0/1 
 !
+access-list 1 permit 192.168.106.0 0.0.0.255
 !
 end
 
