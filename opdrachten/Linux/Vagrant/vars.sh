@@ -91,6 +91,6 @@ nc_db_user_passwd="cloud"
 
 # Synapse
 #---------------------------------------------------------
-nc_db_name="synapse"
-nc_db_user="syn"
-nc_db_user_passwd="apse"
+s_db_name="synapse"
+s_db_user="syn"
+s_db_user_passwd="apse"
