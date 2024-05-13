@@ -26,6 +26,10 @@ IP_NEXTCLOUD="192.168.106.245"
 NETMASK_SERVERS="255.255.255.248"
 IP_NEXTCLOUD_NMCLI="192.168.106.245/29"
 
+# Synapse
+IP_SYNAPSE="192.168.106.246"
+NETMASK_SERVERS="255.255.255.248"
+
 #---------------------------------------------------------
 # Network settings Brent
 #---------------------------------------------------------
@@ -85,3 +89,9 @@ wp_config_path="/var/www/html/wordpress/wp-config.php"
 nc_db_name="nextcloud"
 nc_db_user="next"
 nc_db_user_passwd="cloud"
+
+# Synapse
+#---------------------------------------------------------
+s_db_name="synapse"
+s_db_user="syn"
+s_db_user_passwd="apse"
