@@ -94,6 +94,11 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
       - [Testplan](./opdrachten/Linux/Webserver/testplan.md)
       - [Testrapport](./opdrachten/Linux/Webserver/testrapport.md)
 
+    - Nextcloud
+      - [Lastenboek](./opdrachten/Linux/Nextcloud/lastenboek.md)
+      - [Testplan](./opdrachten/Linux/Nextcloud/testplan.md)
+      - [Testrapport](./opdrachten/Linux/Nextcloud/testrapport.md)
+
   - Windows
     - Server
     - Client
