@@ -80,13 +80,25 @@ Commits:
 
 ### Rayane Yousti
 
-<!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- testrapport opgesteld van windows
+- matrix.org server aangemaakt en geconfigureerd + users
+- kenji zijn CA deels op client ingesteld
+- thunderbird en nextcloud applicatie op client installed
+
+- Commits:
+
+- [3cb0a85](https://github.com/HoGentTIN/sep2324-gent-g06/commit/3cb0a85a9e001cd6d8baf8925709ede38991fb9e)
+- [eea4541](https://github.com/HoGentTIN/sep2324-gent-g06/commit/eea4541d9f3d7238b8d351554ec575e5bdcbaa6a)
+- [ca4a448](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ca4a448fbaeef855da7140c9aca20cf79fed5088)
+- [79a1a8a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/79a1a8ae502e3e6cc9acda559705d604b0faf15f)
+
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ## Wat plan je volgende periode te doen?
+
+Niet van toepassing
 
 ### Algemeen
 
