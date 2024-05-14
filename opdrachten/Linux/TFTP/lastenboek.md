@@ -32,9 +32,11 @@
 | :-------------- | ------: | -----------: |
 | Brent De Clercq |      1h |           2h |
 | Kenji De Coster |  55 min |       39 min |
-| Nobel Fiers     |  20 min |       17 min |
+| Nobel Fiers     |     45h |          50h |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | **Totaal**      |  2h 15m |       2h 56m |
 
 <!-- Voeg na oplevering van de taak een schermafbeelding van rapport tijdbesteding voor deze taak toe. -->
+
+Nobel: Schatting week af door dat ik nog niet goed weet hoeveel werk een tftp server en netwerk configuratie opstellen is.
