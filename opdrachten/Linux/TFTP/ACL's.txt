@@ -11,20 +11,24 @@ blokkeerd berichten van de tftp die zijn interface zouden verlaten
 
 - CLIENT: interface 0/0/0.11
 ip access-list standard CLIENT-ACCESS
-permit host 192.168.106.250
-permit host 192.168.106.242 
-deny any
+deny host 192.168.106.243
+deny host 192.168.106.245
+deny host 192.168.106.234
 
 ip access CLIENT-ACCESS out
-alleen de proxy en windows server kunnen antwoorden op de client
+alleen de proxy en windows server, internet
+ en synaps kunnen antwoorden op de client
 
 
 - PROXY: interface g0/0/0.13
 ip access-list standard PROXY-ACCESS
 permit host 192.168.106.2
-permit host 192.168.106.244
+permit host 192.168.106.243
+permit host perm
+permit host 192.168.106.246
 deny any
 
 ip access PROXY-ACCESS out
-blokkeerd inkomende pings en antwoorden als ze niet van de permitted ip's komen.
+alleen client, nextcloud, linux en synaps kunnen aan de proxy
+
 
