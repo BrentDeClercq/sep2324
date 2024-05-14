@@ -39,9 +39,29 @@
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Nextcloud afgewerkt
+  - Kalender Synchronisatie werkt nu
+  - Https zou nu ook moeten werken
+  - Links kopieren werkt
+- Wachtwoord web vereenvoudigd
+- web en database samengevoegd bij gebrek aan ip adressen
+
+Commits:
+
+- [0dccbe2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0dccbe2857d12a3121849879f3f07d19041b6c01)
+- [f7da5d2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f7da5d260f42089225406740315c43eaa7f7c739)
+- [b2bb83b](https://github.com/HoGentTIN/sep2324-gent-g06/commit/b2bb83b3a739384d846844fc0369edac6dfa3c2d)
+- [30beb94](https://github.com/HoGentTIN/sep2324-gent-g06/commit/30beb9448ba5ec412922da9065bbd68c3ac6690f)
+- [4f00e60](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4f00e60b8a7b595cd29c9ac5d25590b96c4aeca8)
+- [1ca6da1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/1ca6da1ff8afab2183d46fc94ce32dc34a0273c7)
+- [9245e00](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9245e00f6c81952d01fe13a8a9896c30e8aa50b3)
+- [a2f131f](https://github.com/HoGentTIN/sep2324-gent-g06/commit/a2f131f1b653e50667b922ed8b32baf43e36c575)
+- [e389c6b](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e389c6b787f2ae69a55e2f6eeef241eef1cb2630)
+- [6b2cd5d](https://github.com/HoGentTIN/sep2324-gent-g06/commit/6b2cd5daf54f10788e1867a5b815a458b1003126)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+
+![timesheet_brent](./img/timesheet_brent.png)
 
 ### Kenji De Coster
 
@@ -80,7 +100,6 @@ Commits:
 
 ### Rayane Yousti
 
-
 - testrapport opgesteld van windows
 - matrix.org server aangemaakt en geconfigureerd + users
 - kenji zijn CA deels op client ingesteld
@@ -92,7 +111,6 @@ Commits:
 - [eea4541](https://github.com/HoGentTIN/sep2324-gent-g06/commit/eea4541d9f3d7238b8d351554ec575e5bdcbaa6a)
 - [ca4a448](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ca4a448fbaeef855da7140c9aca20cf79fed5088)
 - [79a1a8a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/79a1a8ae502e3e6cc9acda559705d604b0faf15f)
-
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
