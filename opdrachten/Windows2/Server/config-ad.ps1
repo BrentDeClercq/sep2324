@@ -172,6 +172,21 @@ if ($computerExists) {
     Move-ADObject -Identity $computer.DistinguishedName -TargetPath $OUPath
 }
 
+# Checken DC2
+$computerName = "DC2"
+$OUPath = "OU=DomainControllers,OU=Computers,OU=Tenurit,DC=ad,DC=g06-tenurit,DC=internal"
+$computer = Get-ADComputer -Identity $computerName
+
+# Zoek naar de computer in de specifieke OU
+$computerExists = Get-ADComputer -Filter "Name -eq '$computerName'" -SearchBase $OUPath -ErrorAction SilentlyContinue
+
+if ($computerExists) {
+    Write-Host "De computer '$computerName' bestaat al in de OU '$OUPath'."
+} else {
+    Write-Host "De computer '$computerName' wordt aangemaakt in de OU '$OUPath'."
+    Move-ADObject -Identity $computer.DistinguishedName -TargetPath $OUPath
+}
+
 ## ===========================================================================================================
 ## STAP 4: Instellen group policies
 ## ===========================================================================================================
@@ -194,4 +209,4 @@ if ($gpoExists) {
     New-GPO -Name $gpoName -Comment "Avoid for work accounts to be able to log in to DC."
     New-GPLink -Name "RestrictWorkAccounts" -Target "OU=DomainControllers,OU=Computers,OU=Tenurit,DC=ad,DC=g06-tenurit,DC=internal"
     Write-Host "GPO '$gpoName' is succesvol aangemaakt."
-}
+
