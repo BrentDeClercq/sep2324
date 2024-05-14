@@ -94,7 +94,16 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- Tweede Domeincontroller aangemaakt via windows server
+- Tweede DC toegevoegd in het bestaande domein en effectief gepromoveerd
+- Redundante windows opstelling gemaakt
+
+- Commits:
+
+- [2913a07](https://github.com/HoGentTIN/sep2324-gent-g06/commit/2913a07a306b477e294a3362806e4e1c85bf37f2)
+- [662ba2f](https://github.com/HoGentTIN/sep2324-gent-g06/commit/662ba2fe6048a7e79c57fb657c36c1900d29079c)
+- [e6553d9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e6553d92f91c9773a92181e366541b8457f8d382)
+
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
