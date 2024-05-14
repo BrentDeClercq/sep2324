@@ -394,7 +394,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'tenurit','$P$Bp/M5bLzScHdttVOI98zcUARz6bpFH0','tenurit','brent.delcercq2@student.hogent.be','http://g06-tenurit.internal','2024-03-24 10:31:10','',0,'tenurit');
+INSERT INTO `wp_users` VALUES (1,'tenurit','$P$BRw3XCtpztJKt2aOtrE9zpjBjxAfrX1','tenurit','brent.declercq2@student.hogent.be','http://g06-tenurit.internal','2024-03-24 10:31:10','',0,'tenurit');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

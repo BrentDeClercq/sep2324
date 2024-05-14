@@ -15,19 +15,19 @@ set -o pipefail  # don't mask errors in piped commands
 # Variables
 #------------------------------------------------------------------------------
 
-# Location of provisioning scripts and files
-export readonly PROVISIONING_SCRIPTS="/vagrant/provisioning/"
-# Location of files to be copied to this server
-export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
+# # Location of provisioning scripts and files
+# export readonly PROVISIONING_SCRIPTS="/vagrant/provisioning/"
+# # Location of files to be copied to this server
+# export readonly PROVISIONING_FILES="${PROVISIONING_SCRIPTS}/files/${HOSTNAME}"
 
 
 #------------------------------------------------------------------------------
 # "Imports"
 #------------------------------------------------------------------------------
 
-# Actions/settings common to all servers
-source ${PROVISIONING_SCRIPTS}/common.sh
-source "/vagrant/vars.sh"
+# # Actions/settings common to all servers
+# source ${PROVISIONING_SCRIPTS}/common.sh
+# source "/vagrant/vars.sh"
 
 #------------------------------------------------------------------------------
 # Functions
@@ -90,7 +90,7 @@ mysql <<_EOF_
 _EOF_
 fi
 
-log "Creating database and user"
+log "Creating web database and user"
 
 mysql --user=root --password="${db_root_passwd}" << _EOF_
 CREATE DATABASE IF NOT EXISTS ${db_name};
@@ -99,9 +99,18 @@ FLUSH PRIVILEGES;
 _EOF_
 
 
+log "Creating Nextcloud database and user"
+
+mysql --user=root --password="${db_root_passwd}" << _EOF_
+CREATE DATABASE IF NOT EXISTS ${nc_db_name};
+GRANT ALL ON ${nc_db_name}.* TO '${nc_db_user}'@'%' IDENTIFIED BY '${nc_db_user_passwd}';
+FLUSH PRIVILEGES;
+_EOF_
+
 log "Restoring old database"
 
-sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/dump.sql
+sudo mysql -u root -p${db_root_passwd} ${db_name} < /vagrant/configs/db/web.sql
+sudo mysql -u root -p${db_root_passwd} ${nc_db_name} < /vagrant/configs/db/nextcloud.sql
 
 sudo systemctl restart mariadb
 

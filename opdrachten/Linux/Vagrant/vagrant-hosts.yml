@@ -56,12 +56,6 @@
 
 - name: tftp
   box: bento/almalinux-9
-  networks:
-    - type: "public_network"
-      bridge: "Wi-Fi"
-#     - type: "private_network"
-#  virtualbox__intnet: true
-#  intnet: true
 
 - name: db
   box: bento/almalinux-9
@@ -74,3 +68,7 @@
 
 - name: nextcloud
   box: bento/almalinux-9
+
+- name: synapse
+  box: bento/almalinux-9
+

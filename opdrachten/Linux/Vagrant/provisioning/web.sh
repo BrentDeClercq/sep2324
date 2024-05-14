@@ -34,6 +34,12 @@ source /vagrant/vars.sh
 
 log "Starting server specific provisioning tasks on ${HOSTNAME}"
 
+log "Start installatie DB"
+
+source ${PROVISIONING_SCRIPTS}/db.sh
+
+log "Web install"
+
 # Network settings
 sudo ifconfig eth1 $IP_WEB netmask $NETMASK_WEB
 sudo systemctl restart NetworkManager

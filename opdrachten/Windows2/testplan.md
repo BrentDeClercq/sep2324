@@ -41,8 +41,8 @@ Testprocedure:
 
 1. Voer het script `config-client01.ps1` uit op de client VM
 2. Voer het script `rsat.ps1` uit op de client VM (internet connectie is hiervoor noodzakelijk!) 
-2. Zorg hier wederom dat de guest-additions geïnstalleerd zijn
-3. Ga na of de RSAT-tools geïnstalleerd zijn via Control Panel
+3. Zorg hier wederom dat de guest-additions geïnstalleerd zijn
+4. Ga na of de RSAT-tools geïnstalleerd zijn via Control Panel
 
 Verwacht resultaat:
 

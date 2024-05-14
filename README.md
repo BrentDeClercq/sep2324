@@ -59,6 +59,8 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 
 <!-- Vul aan. -->
 
+- [IP Tabel](./opdrachten/netwerk/ip-tabel.md)
+
 - Opvolging
 
   - [Week 2](./opvolging/Opvolgingsformulier%202/opvolgingsrapport-2.md)
@@ -69,6 +71,8 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
   - [Week 7](./opvolging/Opvolgingsformulier%207/opvolgingsrapport-7.md)
 
 - Opdrachten
+
+  - [Offerte](./opdrachten/Offerte/Offerte.pdf)
 
   - Linux
 
@@ -89,6 +93,11 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
       - [Lastenboek](./opdrachten/Linux/Webserver/lastenboek.md)
       - [Testplan](./opdrachten/Linux/Webserver/testplan.md)
       - [Testrapport](./opdrachten/Linux/Webserver/testrapport.md)
+
+    - Nextcloud
+      - [Lastenboek](./opdrachten/Linux/Nextcloud/lastenboek.md)
+      - [Testplan](./opdrachten/Linux/Nextcloud/testplan.md)
+      - [Testrapport](./opdrachten/Linux/Nextcloud/testrapport.md)
 
   - Windows
     - Server

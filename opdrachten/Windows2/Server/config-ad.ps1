@@ -187,7 +187,6 @@ if ($computerExists) {
     Move-ADObject -Identity $computer.DistinguishedName -TargetPath $OUPath
 }
 
-
 ## ===========================================================================================================
 ## STAP 4: Instellen group policies
 ## ===========================================================================================================
@@ -210,4 +209,4 @@ if ($gpoExists) {
     New-GPO -Name $gpoName -Comment "Avoid for work accounts to be able to log in to DC."
     New-GPLink -Name "RestrictWorkAccounts" -Target "OU=DomainControllers,OU=Computers,OU=Tenurit,DC=ad,DC=g06-tenurit,DC=internal"
     Write-Host "GPO '$gpoName' is succesvol aangemaakt."
-}
+

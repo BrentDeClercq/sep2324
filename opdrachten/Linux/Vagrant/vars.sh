@@ -7,7 +7,7 @@ IP_DATABASE="192.168.106.243"
 NETMASK_DATABASE="255.255.255.248"
 
 # Web
-IP_WEB="192.168.106.244"
+IP_WEB="192.168.106.243"
 NETMASK_WEB="255.255.255.248"
 
 # TFTP
@@ -24,6 +24,11 @@ NETMASK_PROXY="255.255.255.252"
 # Nextcloud
 IP_NEXTCLOUD="192.168.106.245"
 NETMASK_SERVERS="255.255.255.248"
+IP_NEXTCLOUD_NMCLI="192.168.106.245/29"
+
+# Synapse
+IP_SYNAPSE="192.168.106.246"
+NETMASK_SERVERS="255.255.255.248"
 
 #---------------------------------------------------------
 # Network settings Brent
@@ -34,7 +39,7 @@ NETMASK_SERVERS="255.255.255.248"
 # NETMASK_DATABASE="255.255.252.0"
 
 # Web
-# IP_WEB="192.168.7.11"
+# IP_WEB="192.168.7.10"
 # NETMASK_WEB="255.255.252.0"
 
 # Proxy
@@ -84,3 +89,9 @@ wp_config_path="/var/www/html/wordpress/wp-config.php"
 nc_db_name="nextcloud"
 nc_db_user="next"
 nc_db_user_passwd="cloud"
+
+# Synapse
+#---------------------------------------------------------
+s_db_name="synapse"
+s_db_user="syn"
+s_db_user_passwd="apse"
