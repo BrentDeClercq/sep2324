@@ -10,6 +10,17 @@ no service password-encryption
 !
 hostname S1
 !
+!
+vlan 11
+ name Clients
+!
+vlan 13
+ name DMZ
+!
+vlan 42
+ name Servers
+!
+!
 boot-start-marker
 boot-end-marker
 !
