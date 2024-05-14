@@ -109,15 +109,41 @@ sudo ln -s  /snap/bin/certbot /usr/bin/certbot
 
 sudo dnf install nginx -y
 
-sudo certbot --nginx --non-interactive --agree-tos -m rayane.yousti@student.hogent.be -d matrix.tenurit.com
+sudo dnf install bind-utils -y
 
 
 log "TLS enabled"
 
+# Reverse proxy configureren
+
+sed -i 's/port: .*/port: 8008/' ~/synapse/homeserver.yaml
+sed -i 's/tls: .*/tls: false/' ~/synapse/homeserver.yaml
+sed -i 's/bind_addresses: .*/bind_addresses: ['\''127.0.0.1'\'']/' ~/synapse/homeserver.yaml
+sed -i 's/type: .*/type: http/' ~/synapse/homeserver.yaml
+sed -i 's/x_forwarded: .*/x_forwarded: true/' ~/synapse/homeserver.yaml
+
+sudo systemctl enable nginx
+sudo systemctl restart nginx
+sudo systemctl enable nginx
+
+
+log "Reverse proxy geconfigureerd"
+
+# Users registreren 
+
+cd ~/synapse
+source env/bin/activate
+synctl start
+
+register_new_matrix_user -c homeserver.yaml -u rayane -p yousti --admin http://localhost:8008
+register_new_matrix_user -c homeserver.yaml -u brent -p declercq --admin http://localhost:8008
+
+log "Users are created"
+
 # IPROUTE
 sudo ifconfig eth1 ${IP_SYNAPSE} netmask ${NETMASK_SERVERS}
 sudo ip route del default
-sudo ip route add default via 192.168.106.241 eth1
+sudo ip route add default via 192.168.106.241 dev eth1
 sudo systemctl restart NetworkManager
 
 echo "Synapse installation completed succesfully."
