@@ -29,6 +29,7 @@ IP_NEXTCLOUD_NMCLI="192.168.106.245/29"
 # Synapse
 IP_SYNAPSE="192.168.106.246"
 NETMASK_SERVERS="255.255.255.248"
+IP_SYNAPSE_NMCLI="192.168.106.246/29"
 
 #---------------------------------------------------------
 # Network settings Brent
