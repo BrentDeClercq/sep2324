@@ -1,0 +1,5 @@
+$cert = Get-ChildItem -Path Cert:\LocalMachine\My\'Thumbprintvanjouwcertificaat'
+
+Export-PfxCertificate -Cert $cert -FilePath "Downloads\Certificate.pfx" -Password (ConvertTo-SecureString -String "YourPassword" -Force -AsPlainText)
+
+scp Downloads\Certificate.pfx vagrant@192.168.106.250:/vagrant/configs/proxy
