@@ -13,17 +13,17 @@
 
 1. Installatie
    - Verantwoordelijke: Kenji De Coster
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Tester: Brent De Clercq
 2. Certificaten
    - Verantwoordelijke: Kenji De Coster
-   - Tester: <!-- Naam: iemand anders dan de verantwoordelijk! -->
+   - Tester: Brent De Clercq
 
 ## Tijdbesteding
 
 | Student         | Geschat | Gerealiseerd |
 | :------------   | ------: | -----------: |
 | Kenji De Coster |  2h     |    3h15      |
-| <!-- NAAM -->   |         |              |
+| Brent De Clercq | 30m     |    15m       |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |
 | <!-- NAAM -->   |         |              |

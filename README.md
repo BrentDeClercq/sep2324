@@ -63,15 +63,13 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
 
 - Opvolging
 
-  - [Week 2](./opvolging/Opvolgingsformulier%202/opvolgingsrapport-2.md)
-  - [Week 3](./opvolging/Opvolgingsformulier%203/opvolgingsrapport-3.md)
-  - [Week 4](./opvolging/Opvolgingsformulier%204/opvolgingsrapport-4.md)
-  - [Week 5](./opvolging/Opvolgingsformulier%205/opvolgingsrapport-5.md)
-  - [Week 6](./opvolging/Opvolgingsformulier%206/opvolgingsrapport-6.md)
-  - [Week 7](./opvolging/Opvolgingsformulier%207/opvolgingsrapport-7.md)
-  - [Week 8](./opvolging/Opvolgingsformulier%208/opvolgingsrapport-8.md)
-
-- Opdrachten
+  - [Week 2](./opvolging/opvolgingsrapport-2/opvolgingsrapport-2.md)
+  - [Week 3](./opvolging/opvolgingsrapport-3/opvolgingsrapport-3.md)
+  - [Week 4](./opvolging/opvolgingsrapport-4/opvolgingsrapport-4.md)
+  - [Week 5](./opvolging/opvolgingsrapport-5/opvolgingsrapport-5.md)
+  - [Week 6](./opvolging/opvolgingsrapport-6/opvolgingsrapport-6.md)
+  - [Week 7](./opvolging/opvolgingsrapport-7/opvolgingsrapport-7.md)
+  - [Week 8](./opvolging/opvolgingsrapport-8/opvolgingsrapport-8.md)
 
   - [Offerte](./opdrachten/Offerte/Offerte.pdf)
 
@@ -94,6 +92,11 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
       - [Lastenboek](./opdrachten/Linux/Webserver/lastenboek.md)
       - [Testplan](./opdrachten/Linux/Webserver/testplan.md)
       - [Testrapport](./opdrachten/Linux/Webserver/testrapport.md)
+   
+    - Proxy
+      - [Lastenboek](./opdrachten/Linux/Proxy/lastenboek.md)
+      - [Testplan](./opdrachten/Linux/Proxy/testplan.md)
+      - [Testrapport](./opdrachten/Linux/Proxy/testrapport.md)
 
     - Nextcloud
       - [Lastenboek](./opdrachten/Linux/Nextcloud/lastenboek.md)
@@ -101,5 +104,10 @@ Beschrijf hier of in een apart document al wat jullie onderling of met jullie be
       - [Testrapport](./opdrachten/Linux/Nextcloud/testrapport.md)
 
   - Windows
+    - [Testplan](./opdrachten/Windows2/testplan.md)
+
     - Server
+      - [Testrapport](./opdrachten/Windows2/testrapport.md)
+
     - Client
+      - [Testrapport](./opdrachten/Windows2/testrapportclient.md)

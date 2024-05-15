@@ -25,23 +25,23 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
-![alt text](./img/Kanban.png)
+![kanban](./img/kanban.png)
 
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
 
-![alt text](./img/jira.png)
+![tijdsregistratie](./img/tijdsregistratie.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
 
-![alt text](./img/diagram.png)
+![CFD_rapport](./img/CFD_rapport.png)
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
 
-![alt text](./img/diagramCummulatief.png)
+![CFD_project](./img/CFD_project.png)
 
 ### Brent De Clercq
 
@@ -49,7 +49,7 @@
 
 - ...
 
-![alt text](./img/Brent.png)
+![timesheet_brent](./img/timesheet_brent.png)
 
 - [d85a01a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/d85a01a9c368cb2d3af0766cfeb1bc692dfee05b)
 - [9c079e1](https://github.com/HoGentTIN/sep2324-gent-g06/commit/9c079e1c96cd1a33e3a92e2f9656894abbd078b6)
@@ -74,7 +74,7 @@
 - proxy http/2
 - packet tracer aangepast
 
-![alt text](./img/Kenji.png)
+![timesheet_kenji](./img/timesheet_kenji.png)
 
 - [49a829d ](https://github.com/HoGentTIN/sep2324-gent-g06/commit/49a829d8b9165c6b99256f37d398892b4e7fa24a)
 - [37a28b5 ](https://github.com/HoGentTIN/sep2324-gent-g06/commit/37a28b56808b2b9bee4b8fc939fc7894512044d6)
@@ -89,7 +89,7 @@
 - problemen met packet tracer proberen oplossen en vermijden
 - meegeholpen bij algemene groepsproblemen
 
-![alt text](./img/Nobel.png)
+![timesheet_nobel](./img/timesheet_nobel.png)
 
   <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -104,7 +104,7 @@
 - ps script geschreven om windows server te promoveren tot domeincontroller
 - ps script geschreven om organizational units aan te maken binnen active directory
 
-![alt text](./img/Julie.png)
+![timesheet_julie](./img/timesheet_julie.png)
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 - [d704c9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/d704c9f44c84054165c2ff6edc85fa2d9421c97d)
@@ -124,7 +124,7 @@
 - Shares rechten manueel
 - Feeback week 7 noteren
 
-![alt text](./img/Rayane.png)
+![timesheet_rayane](./img/timesheet_rayane.png)
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
 ## Wat plan je volgende periode te doen?

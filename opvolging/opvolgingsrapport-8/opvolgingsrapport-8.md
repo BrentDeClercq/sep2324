@@ -1,5 +1,12 @@
 # Opvolgingsrapport 8
 
+## Uitbreidingen
+
+- CA installeren en certificaten uitrollen op Windows
+- Nextcloud linux server
+- Redundante Windows server set-up
+- NAT port forwarding
+
 ## Algemeen
 
 - Groep: G06
@@ -25,16 +32,29 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
+![kanban](./img/kanban.png)
+![kanban2](./img/kanban2.png)
+![kanban3](./img/kanban3.png)
+![kanban4](./img/kanban4.png)
+![kanban5](./img/kanban5.png)
+![kanban6](./img/kanban6.png)
+![kanban7](./img/kanban7.png)
+![kanban8](./img/kanban8.png)
+![kanban9](./img/kanban9.png)
+![kanban10](./img/kanban10.png)
+![kanban11](./img/kanban11.png)
+![kanban12](./img/kanban12.png)
+
 #### Tijdsregistratie
 
-![tijdrapport](./imgw8/groep8.png)
+![tijdrapport](./img/tijdsregistratie.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
-
+![CFD_rapport](./img/CFD_rapport.png)
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
-
+![CFD_project](./img/CFD_project.png)
 ### Brent De Clercq
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
@@ -67,9 +87,15 @@ Commits:
 
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
-- ...
+- ca uitbreiding
+  
+- [e487f8a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e487f8a80b6d8a8389f9d06b00ed76bcf92b3974)
+- [90a38c8](https://github.com/HoGentTIN/sep2324-gent-g06/commit/90a38c821ac31a551a463ce7a2dbde84068d99dd)
+- [127c8f4](https://github.com/HoGentTIN/sep2324-gent-g06/commit/127c8f41814c518ef35e1161db5f36f06cae4044)
+- [d5dd90a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/d5dd90a03e59c3265a47674d892879c00d3773c1)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_kenji](./img/timesheet_kenji.png)
 
 ### Nobel Fiers
 
@@ -86,7 +112,7 @@ Commits:
 - [ec8357](https://github.com/HoGentTIN/sep2324-gent-g06/commit/ec83576ed293e5f8e415bf672d4bfbfc5d993d67)
 - [f618a9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/f618a95b56170b200e155366091597cc03688507)
 
-![nobelTijd](./imgw8/nobel8.png)
+![nobelTijd](./img/timesheet_nobel.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -106,7 +132,7 @@ Commits:
 
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
-
+![timesheet_julie](./img/timesheet_julie.png)
 ### Rayane Yousti
 
 - testrapport opgesteld van windows
@@ -122,6 +148,7 @@ Commits:
 - [79a1a8a](https://github.com/HoGentTIN/sep2324-gent-g06/commit/79a1a8ae502e3e6cc9acda559705d604b0faf15f)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
+![timesheet_rayane](./img/timesheet_rayane.png)
 
 ## Wat plan je volgende periode te doen?
 
@@ -131,38 +158,37 @@ Niet van toepassing
 
 <!-- Voeg hier de doelstellingen toe voor volgende periode. -->
 
-- ...
-- ...
+- Niet van toepassing
 
 ### Brent De Clercq
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Niet van toepassing
 
 ### Kenji De Coster
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Niet van toepassing
 
 ### Nobel Fiers
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- niet van toepassing
+- Niet van toepassing
 
 ### Julie De Witte
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Niet van toepassing
 
 ### Rayane Yousti
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- Niet van toepassing
 
 ## Retrospectieve
 

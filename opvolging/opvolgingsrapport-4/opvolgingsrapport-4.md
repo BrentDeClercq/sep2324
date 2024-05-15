@@ -25,26 +25,26 @@
 
 <!-- Voeg hier een screenshot toe van de huidige toestand van het kanban bord. -->
 
-![alt text](./img/deel1.png)
-![alt text](./img/deel2.png)
-![alt text](./img/deel3.png)
-![alt text](./img/deel4.png)
+![kanban](./img/kanban.png)
+![kanban2](./img/kanban2.png)
+![kanban3](./img/kanban3.png)
+![kanban4](./img/kanban4.png)
 
 #### Tijdsregistratie
 
 <!-- Voeg hier een screenshot toe van het teamoverzicht van de tijdregistratie, met totaal per student en team -->
 
-![alt text](./img/jira.png)
+![tijdsregistratie](./img/tijdsregistratie.png)
 
 #### Cumulatief flow diagram
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
 
-![alt text](./img/cumulatiefflowdiagram2.png)
+![CFD_rapport](./img/CFD_rapport.png)
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
 
-![alt text](./img/cumulatiefflowdiagram.png)
+![CFD_project](./img/CFD_project.png)
 
 ### Brent De Clercq
 
@@ -54,7 +54,7 @@
 - Installatie HTTP/Apache op de webserver
 - Installatie en configuratie van CMS: Wordpress
 
-![alt text](./img/timesheet3_brent.png)
+![timesheet_brent](./img/timesheet_brent.png)
 
 Commits:
 
@@ -86,7 +86,7 @@ Commits:
 - tftp bereikbaarheid proberen oplossen maar nog altijd geen resultaat
 - begonnen aan de proxy server, installatie is klaar, certificaten nog niet volledig
 
-![alt text](./img/timesheet3_kenji.png)
+![timesheet_kenji](./img/timesheet_kenji.png)
 
 Commits:
 
@@ -105,7 +105,7 @@ Commits:
 <!-- Voeg hier een overzicht toe van gerealiseerde taken inclusief links naar relevante commits/documenten. -->
 
 - configureren switch packet tracer en pingen getest.
-  ![timesheet3_nobel](./img/timesheet3_nobel.png)
+  ![timesheet_nobel](./img/timesheet_nobel.png)
   Commits:
 
 - [97fc8bf](https://github.com/HoGentTIN/sep2324-gent-g06/pull/35/commits/97fc8bf6fdf881a577fc0f0f97e6eca5d0f1ccb9)
@@ -118,7 +118,7 @@ Commits:
 
 - ...
 
-![alt text](./img/timesheet3_julie.png)
+![timesheet_julie](./img/timesheet_julie.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
@@ -129,7 +129,7 @@ Commits:
 - Offerte volledig afwerken
 - PowerPoint presentatie afwerken
 
-![alt text](./img/timesheet3_rayane.png)
+![timesheet_rayane](./img/timesheet_rayane.png)
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 

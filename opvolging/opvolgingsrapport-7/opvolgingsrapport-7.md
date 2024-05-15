@@ -23,17 +23,20 @@
 
 #### KanBan
 
-![alt text](./imgw7/Kanban7.png)
+![kanban](./img/kanban.png)
 
 #### Tijdsregistratie
 
-![alt text](./imgw7/tijdsregistratie_groep.png)
+![tijdsregistratie](./img/tijdsregistratie.png)
 
 #### Cumulatief flow diagram
+<!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de periode van het rapport. -->
 
-![alt text](./imgw7/CFD7.png)
+![CFD_rapport](./img/CFD_rapport.png)
 
 <!-- Voeg hier een screenshot toe van het cumulatief flow diagram voor de volledige periode van het project. -->
+
+![CFD_project](./img/CFD_project.png)
 
 ### Brent De Clercq
 
@@ -66,7 +69,7 @@ Commits:
 
 <!-- Voeg hier een screenshot van het individueel tijdregistratierapport, met overzicht van elke taak en bijhorende uren. -->
 
-![alt text](./imgw7/Brent7.png)
+![timesheet_brent](./img/timesheet_brent.png)
 
 ### Kenji De Coster
 
@@ -93,7 +96,7 @@ commits:
 - [6fa846c](https://github.com/HoGentTIN/sep2324-gent-g06/commit/6fa846c1d6e7be4a262719b03ee07bd619de4c61)
 - [4fe1bc2](https://github.com/HoGentTIN/sep2324-gent-g06/commit/4fe1bc2fe50ebbf9327dfca91f490ef67770790b)
 
-![alt text](./imgw7/Kenji7.png)
+![timesheet_kenji](./img/timesheet_kenji.png)
 
 ### Nobel Fiers
 
@@ -108,7 +111,7 @@ Commits:
 - [c8abdc](https://github.com/HoGentTIN/sep2324-gent-g06/commit/c8abdc48eb40baaa127453c65c4d7a13678ded9f)
 - [075286](https://github.com/HoGentTIN/sep2324-gent-g06/commit/075286ae5a47a58fb3e5912ee75c346fb918c266)
 
-![alt text](./imgw7/Nobel7.png)
+![timesheet_nobel](./img/timesheet_nobel.png)
 
 ### Julie De Witte
 
@@ -135,7 +138,7 @@ Commits:
 - [e38168f](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e38168fde137d0239e8e8d4836cf1bfd283a280b)
 - [e88cc55](https://github.com/HoGentTIN/sep2324-gent-g06/commit/e88cc55dfb62fe90d3df896d66c5b288825c880e)
 
-![alt text](./imgw7/Julie7.png)
+![timesheet_julie](./img/timesheet_julie.png)
 
 ### Rayane Yousti
 
@@ -153,7 +156,7 @@ Commits:
 - [7c88593](https://github.com/HoGentTIN/sep2324-gent-g06/commit/7c88593a7dccf4cd3638b6aaa9ddee94ccbed1bc)
 - [0122ea9](https://github.com/HoGentTIN/sep2324-gent-g06/commit/0122ea924f2f74b09926031ae7b798afe5b659b8)
 
-![alt text](./imgw7/Rayane7.png)
+![timesheet_rayane](./img/timesheet_rayane.png)
 
 ## Wat plan je volgende periode te doen?
 
@@ -175,7 +178,7 @@ Commits:
 
 <!-- Voeg hier de individuele doelstellingen toe voor volgende periode. -->
 
-- ...
+- CA uitbreiding afwerken
 
 ### Nobel Fiers
 
